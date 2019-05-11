@@ -1,0 +1,30 @@
+//colors
+$orange: #e45028;
+$yellow: #f9b43b;
+$black: #2f3234;
+$red: #c1401e;
+
+//adjustment
+@import "../css/normalize.css";
+@import "../css/fonts.css";
+
+//blocks style
+@import "blocks/button.css";
+@import "blocks/section-title.css";
+@import "blocks/header.css";
+@import "blocks/slider.css";
+@import "blocks/down-arrow.css";
+@import "blocks/feature.css";
+@import "blocks/review.css";
+
+
+//section style
+@import "../css/layouts/layout.css";
+@import "sections/welcome.css";
+@import "sections/best.css";
+@import "sections/reviews.css";
+
+
+
+
+

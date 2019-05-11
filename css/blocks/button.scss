@@ -1,0 +1,15 @@
+
+.button{
+  color:#fff;
+  text-decoration: none;
+  font-family: Ubuntu_Light, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  background-color: #e45028;
+  border-radius: 5px;
+  padding: 10px 15px;
+
+  &:hover{
+    background-color: #c1401e;
+  }
+}

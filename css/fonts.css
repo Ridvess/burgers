@@ -1,0 +1,42 @@
+@font-face{
+    font-family: 'Gagalin_Regular';
+    src: url('../fonts/gagalin-regular-webfont.woff') format('woff');
+    src: url('../fonts/gagalin-regular-webfont.woff2')format('woff2');
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Ubuntu_Bold';
+    src: url('../fonts/ubuntu-b-webfont.woff') format('woff');
+    src: url('../fonts/ubuntu-b-webfont.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Ubuntu_Light';
+    src: url('../fonts/ubuntu-light-webfont.woff') format('woff');
+    src: url('../fonts/ubuntu-light-webfont.woff2') format('woff2');
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Ubuntu_Medium';
+    src: url('../fonts/ubuntu-medium-webfont.woff') format('woff');
+    src: url('../fonts/ubuntu-medium-webfont.woff2') format('woff2');
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Ubuntu_Regular';
+    src: url('../fonts/ubuntu-regular-webfont.woff') format('woff');
+    src: url('../fonts/ubuntu-regular-webfont.woff2') format('woff2');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lifehack Medium';
+    src: url("../fonts/lifehack_medium-webfont.woff") format('woff');
+    src: url("../fonts/lifehack_medium-webfont.woff2") format('woff2');
+    font-weight: bold;
+    font-style: italic;
+}

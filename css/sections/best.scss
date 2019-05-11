@@ -1,0 +1,29 @@
+.best{
+  background: url("../../img/backgrounds/second_pg_bg.png") no-repeat;
+  background-size: cover;
+}
+
+
+.best__section-title{
+  margin-bottom: 5%;
+}
+
+.best__content{
+  padding-bottom: 2%;
+}
+
+
+.best__list{
+  display: flex;
+  text-align: center;
+}
+
+.best__item{
+  flex: 1;
+  margin-right: 10px;
+  &:last-child{
+    margin-right: 0;
+  }
+}
+
+
