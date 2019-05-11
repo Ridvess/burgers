@@ -21,16 +21,21 @@
   right: 0;
   bottom: 0;
   background: rgba(#000, .8);
-  padding: 45px 5% 10px;
+  padding: 45px 7% 10px 10%;
   color: #fff;
   opacity: 0;
   transition: opacity .3s;
 }
 
 .review__title{
-
+  font-family: Gagalin_Regular, sans-serif;
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 
 .review__text{
-  padding-bottom: 15px;
+  font-family: Ubuntu_Light, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }

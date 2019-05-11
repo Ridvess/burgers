@@ -1,7 +1,7 @@
 .button {
   color: #fff;
   text-decoration: none;
-  font-family: Ubuntu_Light, sans-serif;
+  font-family: Ubuntu_Medium, sans-serif;
   font-size: 13px;
   font-weight: 500;
   background-color: #e45028;
@@ -9,5 +9,9 @@
   padding: 10px 15px; }
   .button:hover {
     background-color: #c1401e; }
+  .button--bg-black {
+    background-color: #2f3234; }
+    .button--bg-black:hover {
+      background-color: #1f2122; }
 
 /*# sourceMappingURL=button.css.map */
