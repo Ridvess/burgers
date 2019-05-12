@@ -21,7 +21,7 @@
   right: 0;
   bottom: 0;
   background: rgba(#000, .8);
-  padding: 45px 7% 10px 10%;
+  padding: 48px 12% 20px 7%;
   color: #fff;
   opacity: 0;
   transition: opacity .3s;
@@ -37,5 +37,9 @@
   font-family: Ubuntu_Light, sans-serif;
   font-size: 13px;
   line-height: 1.5;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
+}
+
+.button--bg-black{
+  text-transform: uppercase;
 }

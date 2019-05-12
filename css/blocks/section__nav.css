@@ -1,9 +1,9 @@
-.slider {
+.section__nav {
   position: fixed;
   left: 95%;
   top: 15%; }
 
-.slider__item {
+.section__nav__item {
   color: #fff;
   width: 7px;
   height: 7px;
@@ -11,4 +11,4 @@
   background: #fff;
   border-radius: 50%; }
 
-/*# sourceMappingURL=slider.css.map */
+/*# sourceMappingURL=section__nav.cssav.css.map */

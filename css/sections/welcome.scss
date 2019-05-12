@@ -8,22 +8,24 @@
 }
 
 .welcome__content{
-  margin-top: 63px;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex:.8;
 }
+
 .welcome__section-title{
   color: #f9b43b;
   margin-bottom: 20px;
 }
 .content__text{
-  padding-left: 17px;
-  padding-top: 63px;
-  line-height: 1.1;
+  width: 49%;
+  padding-left: 11px;
+  padding-top: 52px;
+  line-height: 1;
 }
 
 .welcome__desc{
-  font-family: "Lifehack Medium";
+  font-family: "Lifehack Medium", sans-serif;
   font-size: 65px;
   color: #fff;
 
