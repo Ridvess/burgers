@@ -1,7 +1,8 @@
 .section__nav {
   position: fixed;
   left: 95%;
-  top: 15%; }
+  top: 15%;
+  z-index: 10; }
 
 .section__nav__item {
   color: #fff;
@@ -11,4 +12,4 @@
   background: #fff;
   border-radius: 50%; }
 
-/*# sourceMappingURL=section__nav.cssav.css.map */
+/*# sourceMappingURL=section__nav.css.map */

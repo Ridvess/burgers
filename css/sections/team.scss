@@ -1,0 +1,13 @@
+.team{
+  background: url("../../img/backgrounds/team_bg-min.JPG")center center / cover no-repeat;
+  position: relative;
+}
+
+.team__menu {
+  position: absolute;
+  left: 52%;
+  width: 48%;
+  height: 100%;
+  background: rgba(0, 0, 0, .6);
+  color: #fff;
+}

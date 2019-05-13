@@ -1,0 +1,32 @@
+/*
+Error: Invalid CSS after ".team__menu": expected "{", was ""
+        on line 1 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\team__menu.scss
+
+1: .team__menu
+
+Backtrace:
+C:\Users\Roman\WebstormProjects\Burgers\css\blocks\team__menu.scss:1
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:686:in `block_contents'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+F:/koalaPrepro/bin/sass:22:in `load'
+F:/koalaPrepro/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \".team__menu\": expected \"{\", was \"\"\A         on line 1 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\team__menu.scss\A \A 1: .team__menu"; }
