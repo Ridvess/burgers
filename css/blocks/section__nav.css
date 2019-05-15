@@ -9,7 +9,17 @@
   width: 7px;
   height: 7px;
   margin: 15px;
-  background: #fff;
+  background: red;
   border-radius: 50%; }
+  .section__nav__item:after {
+    bottom: 10%;
+    left: 11px;
+    position: absolute;
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 3px solid green; }
 
 /*# sourceMappingURL=section__nav.css.map */

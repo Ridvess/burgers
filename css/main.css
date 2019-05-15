@@ -8,10 +8,15 @@
 @import url(blocks/feature.css);
 @import url(blocks/review.css);
 @import url(blocks/accordeon__item__desc.css);
+@import url(blocks/desc__text.css);
+@import url(blocks/accordeon__item.css);
+@import url(blocks/contacts__footer.css);
 @import url(../css/layouts/layout.css);
 @import url(sections/welcome.css);
 @import url(sections/best.css);
 @import url(sections/reviews.css);
 @import url(sections/team.css);
+@import url(sections/menu.css);
+@import url(sections/contacts.css);
 
 /*# sourceMappingURL=main.css.map */

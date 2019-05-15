@@ -1,0 +1,11 @@
+.accordeon__item {
+  margin-bottom: 35px; }
+  .accordeon__item-active .accordeon__item__title {
+    color: #f9b43b; }
+    .accordeon__item-active .accordeon__item__title:before {
+      border: 3px solid transparent;
+      border-bottom: 5px solid yellow; }
+  .accordeon__item-active .accordeon__item__desc {
+    height: 100%; }
+
+/*# sourceMappingURL=accordeon__item.css.map */

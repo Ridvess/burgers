@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,gBAAgB;EACd,aAAa,EAAE,IAAI;EAEjB,+CAAwB;IACtB,KAAK,EAAE,OAAO;IACd,sDAAS;MACP,MAAM,EAAE,qBAAqB;MAC7B,aAAa,EAAE,gBAAgB;EAGnC,8CAAsB;IACpB,MAAM,EAAE,IAAI",
+"sources": ["accordeon__item.scss"],
+"names": [],
+"file": "accordeon__item.css"
+}

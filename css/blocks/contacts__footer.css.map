@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,iBAAiB;EACf,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,IAAI;EAChB,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,GAAG",
+"sources": ["contacts__footer.scss"],
+"names": [],
+"file": "contacts__footer.css"
+}

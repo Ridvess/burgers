@@ -10,4 +10,14 @@
   &--centered{
     text-align: center;
   }
+  
+  &--color-yellow{
+    color: #f9b43b;
+  }
+  &--desc__title{
+    font-family: Ubuntu_Bold, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    
+  }
 }
