@@ -6,20 +6,31 @@
 
 .section__nav__item {
   color: #fff;
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
   margin: 15px;
-  background: red;
-  border-radius: 50%; }
-  .section__nav__item:after {
-    bottom: 10%;
-    left: 11px;
+  background: white;
+  border-radius: 50%;
+  position: relative; }
+  .section__nav__item-active:after {
+    top: -5px;
+    left: -5px;
     position: absolute;
     content: '';
     display: block;
-    width: 10px;
-    height: 10px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
-    border: 3px solid green; }
+    border: 1px solid white; }
+  .section__nav__item:hover:after {
+    top: -5px;
+    left: -5px;
+    position: absolute;
+    content: '';
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid white; }
 
 /*# sourceMappingURL=section__nav.css.map */

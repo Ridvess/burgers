@@ -1,3 +1,19 @@
 .menu{
   background: url("../../img/backgrounds/menu_bg-min.jpg")center center/ cover no-repeat;
+  position: relative;
+}
+
+.menu__menu__block{
+  position: absolute;
+  right: 0;
+  width: 780px;
+  height: 100%;
+  background: rgba(0, 0, 0, .6);
+}
+
+.menu__accordeon-vertical{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }

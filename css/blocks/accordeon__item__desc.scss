@@ -3,6 +3,14 @@
   margin-bottom: 13px;
   height: 0;
   overflow: hidden;
+  &-vertical{
+    height: 100%;
+    width: 80px;
+    background: #000;
+    &-active{
+      width: 180px;
+    }
+  }
 }
 
 .accordeon__item__title{
@@ -11,6 +19,9 @@
   text-transform: uppercase;
   position: relative;
   padding-left: 15px;
+  &-vertical{
+    transform: rotate(270deg);
+  }
   &:before{
     content: '';
     width: 0;
@@ -23,7 +34,7 @@
   }
 }
 
-.desc__avatar{
+.accordeon__desc__avatar{
   width: 100px;
   height: 100px;
   overflow: hidden;

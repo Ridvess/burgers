@@ -7,20 +7,40 @@
 
 .section__nav__item{
   color: #fff;
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
   margin: 15px;
-  background: red;
+  background: white;
   border-radius: 50%;
-  &:after{
-    bottom: 10%;
-    left: 11px;
-    position: absolute;
-    content: '';
-    display: block;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    border: 3px solid green;
+  position: relative;
+
+  &-active {
+    &:after {
+      top: -5px;
+      left: -5px;
+      position: absolute;
+      content: '';
+      display: block;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      border: 1px solid white;
+    }
+  }
+
+  &:hover {
+    &:after {
+      top: -5px;
+      left: -5px;
+      position: absolute;
+      content: '';
+      display: block;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      border: 1px solid white;
+    }
+
+
   }
 }

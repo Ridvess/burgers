@@ -3,6 +3,10 @@
   margin-bottom: 13px;
   height: 0;
   overflow: hidden; }
+  .accordeon__item__desc-vertical {
+    height: 100%;
+    width: 80px;
+    background: #000; }
 
 .accordeon__item__title {
   font-size: 14px;
@@ -10,6 +14,8 @@
   text-transform: uppercase;
   position: relative;
   padding-left: 15px; }
+  .accordeon__item__title-vertical {
+    transform: rotate(270deg); }
   .accordeon__item__title:before {
     content: '';
     width: 0;
@@ -20,7 +26,7 @@
     top: 5px;
     left: 0; }
 
-.desc__avatar {
+.accordeon__desc__avatar {
   width: 100px;
   height: 100px;
   overflow: hidden;
