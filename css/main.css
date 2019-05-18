@@ -10,7 +10,8 @@
 @import url(blocks/accordeon__item__desc.css);
 @import url(blocks/accordeon__desc__text.css);
 @import url(blocks/accordeon__item.css);
-@import url(blocks/contacts__footer.css);
+@import url(blocks/map__footer.css);
+@import url(blocks/menu__acco.css);
 @import url(../css/layouts/layout.css);
 @import url(sections/welcome.css);
 @import url(sections/best.css);

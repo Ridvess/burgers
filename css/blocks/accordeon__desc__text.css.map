@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,WAAW;EACT,KAAK,EAAE,KAAK;EACZ,YAAY,EAAE,IAAI;;AAGpB,oBAAoB;EAClB,WAAW,EAAE,wBAAwB;EACrC,SAAS,EAAE,IAAI",
-"sources": ["desc__text.scss"],
+"mappings": "AAAA,sBAAsB;EACpB,KAAK,EAAE,KAAK;EACZ,YAAY,EAAE,IAAI;;AAGpB,+BAA+B;EAC7B,WAAW,EAAE,wBAAwB;EACrC,SAAS,EAAE,IAAI",
+"sources": ["accordeon__desc__text.scss"],
 "names": [],
-"file": "desc__text.css"
+"file": "accordeon__desc__text.css"
 }

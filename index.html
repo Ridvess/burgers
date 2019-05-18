@@ -13,7 +13,9 @@
     <section class="section welcome">
         <div class="container welcome__container">
             <header class="welcome__header">
-                <img src="./img/icons/logo.svg" alt="site logo" class="header__logo">
+                <svg width="98" height="74" class="logo-icon">
+                    <use xlink:href="img/icons/sprite.svg#logo"></use>
+                </svg>
                 <div class="header__buttons">
                     <nav class="header__menu">
                         <ul class="menu__list">
@@ -52,7 +54,9 @@
             </div>
             <div class="down__arrow">
                 <a href="#">
-                    <img src="img/icons/arrow-scroll.svg" alt="arrow scroll">
+                    <svg width="28.685px" height="14.479px">
+                        <use xlink:href="img/icons/sprite.svg#arrow-scroll"></use>
+                    </svg>
                 </a>
             </div>
         </div>
@@ -67,7 +71,9 @@
             <div class="best__content">
                 <ul class="best__list">
                     <li class="best__item feature">
-                        <img src="img/icons/meat.svg" alt="meat icon" class="feature__icon">
+                        <svg width="119" height="87" class="feature__icon feature__icon-meat">
+                            <use xlink:href="img/icons/sprite.svg#meat" ></use>
+                        </svg>
                         <div class="feature__desc">
                             <h3 class="feature__title">100% свежее мясо</h3>
                             <div class="feature__text">
@@ -75,7 +81,9 @@
                             </div>
                         </div>
                     </li><li class="best__item feature">
-                        <img src="img/icons/hand.svg" alt="hand icon" class="feature__icon">
+                    <svg width="116" height="87" class="feature__icon feature__icon-hand">
+                        <use xlink:href="img/icons/sprite.svg#hand" ></use>
+                    </svg>
                         <div class="feature__desc">
                             <h3 class="feature__title">Ручная работа</h3>
                             <div class="feature__text">
@@ -83,7 +91,9 @@
                             </div>
                         </div>
                     </li><li class="best__item feature">
-                        <img src="img/icons/natural.svg" alt="leaf icon" class="feature__icon">
+                    <svg width="106" height="87" class="feature__icon feature__icon-natural">
+                        <use xlink:href="img/icons/sprite.svg#natural" ></use>
+                    </svg>
                         <div class="feature__desc">
                             <h3 class="feature__title">Натуральные ингридиенты</h3>
                             <div class="feature__text">
@@ -156,26 +166,48 @@
 
     <!--  menu section  -->
     <section class="section menu">
-        <div class="container">
-            <h2 class="section-title section-title--color-white">меню</h2>
-            <div class="menu__menu__block">
-                <div class="menu__accordeon menu__accordeon-vertical">
-                    <div class="accordeon__item-vertical">
-                        <h3 class="section-title--color-white accordeon__item__title-vertical">для мясоедов</h3>
-                        <div class="accordeon__item__desc-vertical">sdfghjk</div>
-                    </div>
+            <h2 class="section-title section-title--color-white section-title__menu">меню</h2>
+                    <ul class="menu-acco">
+                        <li class="menu-acco__item active">
+                            <a href="#" class="menu-acco__trigger menu-acco__bg menu-acco__bg-meat"
+                               style="background-image: 
+                               url(' ./img/content/acco__meat.JPG')">
+                                <h4 class="section-title menu-acco__trigger-title section-title--color-white ">для мясоедов</h4>
+                            </a>
 
-                    <div class="accordeon__item-vertical">
-                        <h3 class="accordeon__item__title-vertical">вегетарианское</h3>
-                    </div>
+                            <div class="menu-acco__content active">
+                                <div class="menu-acco__text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Autem consectetur consequuntur cum delectus doloremque eos facilis fugit harum magnam minus modi non,
+                                        obcaecati officia pariatur quae reiciendis suscipit ullam, voluptatibus!</p>
+                                </div>
+                            </div>
+                        </li>
 
-                    <div class="accordeon__item-vertical">
-                        <h3 class="accordeon__item__title-vertical">диетическое</h3>
-                    </div>
+                        <li class="menu-acco__item">
+                            <a href="#" class="menu-acco__trigger  menu-acco__bg menu-acco__bg-vegan"
+                               style="background-image:
+                               url(' ./img/content/acco_vegan.JPG')">
+                                <h4 class="section-title menu-acco__trigger-title section-title--color-white">для вегитарианцев</h4>
+                            </a>
+                            <div class="menu-acco__content">
+                                <div class="menu-acco__text">
+                                </div>
+                            </div>
+                        </li>
 
-                </div>
-            </div>
-        </div>
+                        <li class="menu-acco__item" style="">
+                            <a href="#" class="menu-acco__trigger menu-acco__bg menu-acco__bg-diet"
+                               style="background-image:
+                               url(' ./img/content/acco__diet.JPG')">
+                                <h4 class="section-title menu-acco__trigger-title section-title--color-white">диетический</h4>
+                            </a>
+                            <div class="menu-acco__content">
+                                <div class="menu-acco__text">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
     </section>
 
    <!-- review section -->
@@ -266,10 +298,25 @@
     </section>
 
 <!--  map section  -->
-    <section class="section contacts">
-        <div class="container">
-        <footer class="contacts__footer">
-
+    <section class="section map">
+        <div class="container map__container">
+        <footer class="map__footer">
+            <div class="footer__content">
+                <div class="footer__content__left">
+                    <div class="footer__content__address">
+                        <p>Санкт-Петербург, ул.Бабушкина, д.12/1, 15</p>
+                    </div>
+                    <div class="footer__content__socials">
+                        <svg></svg>
+                        <p>+7 (812) 377-13-77</p>
+                    </div>
+                </div>
+                <div class="footer__content__right">
+                    <img src="img/icons/twitter.svg" alt="">
+                    <img src="img/icons/fb.svg" alt="">
+                    <img class="vk" src="img/icons/vk.svg" alt="">
+                </div>
+            </div>
         </footer>
         </div>
     </section>
