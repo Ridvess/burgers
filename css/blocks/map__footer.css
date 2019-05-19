@@ -19,7 +19,8 @@
   width: 50%;
   height: 100%;
   justify-content: flex-start;
-  color: #fff; }
+  color: #fff;
+  padding-top: 10px; }
 
 .footer__content__right {
   display: flex;
@@ -30,5 +31,39 @@
 .vk {
   height: 100%;
   width: auto; }
+
+.footer__content__address {
+  font-size: 14px;
+  font-family: Ubuntu_Light, sans-serif;
+  padding-bottom: 5px; }
+
+.footer__content__phone {
+  display: flex;
+  color: #E45028;
+  font-family: Ubuntu_Bold, sans-serif;
+  font-size: 14px; }
+
+.phone-icon {
+  margin-top: 3px;
+  margin-right: 8px; }
+
+.content__right__icons {
+  padding-top: 18px; }
+
+.icon__link {
+  text-decoration: none;
+  margin-right: 20px; }
+
+.vk-icon:hover {
+  fill: #fff; }
+
+.fb-icon:hover {
+  fill: #fff; }
+
+.inst-icon:hover {
+  fill: #fff; }
+
+.twitter-icon:hover {
+  fill: #fff; }
 
 /*# sourceMappingURL=map__footer.css.map */

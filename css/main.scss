@@ -9,28 +9,29 @@ $red: #c1401e;
 @import "../css/fonts.css";
 
 //blocks style
-@import "blocks/button.css";
-@import "blocks/section-title.css";
-@import "blocks/header.css";
-@import "blocks/section__nav.css";
-@import "blocks/down-arrow.css";
-@import "blocks/feature.css";
-@import "blocks/review.css";
-@import "blocks/accordeon__item__desc.css";
-@import "blocks/accordeon__desc__text.css";
-@import "blocks/accordeon__item.css";
-@import "blocks/map__footer.css";
-@import"blocks/menu__acco.css";
+@import "blocks/button.scss";
+@import "blocks/section-title.scss";
+@import "blocks/header.scss";
+@import "blocks/section__nav.scss";
+@import "blocks/down-arrow.scss";
+@import "blocks/feature.scss";
+@import "blocks/review.scss";
+@import "blocks/accordeon__item__desc.scss";
+@import "blocks/accordeon__desc__text.scss";
+@import "blocks/accordeon__item.scss";
+@import "blocks/map__footer.scss";
+@import"blocks/menu__acco.scss";
+@import"blocks/svg__icons.scss";
 
 
 //section style
-@import "../css/layouts/layout.css";
-@import "sections/welcome.css";
-@import "sections/best.css";
-@import "sections/reviews.css";
-@import"sections/team.css";
-@import"sections/menu.css";
-@import"sections/contacts.css";
+@import "../css/layouts/layout.scss";
+@import "sections/welcome.scss";
+@import "sections/best.scss";
+@import "sections/reviews.scss";
+@import"sections/team.scss";
+@import"sections/menu.scss";
+@import"sections/map.scss";
 
 
 
