@@ -2,6 +2,8 @@
 <html lang="ru-RU">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="TE=edge,chrome=1">
+    <meta name ="viewport" content="width=device-width,initial-scale=1">
     <title>Mr Burger</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -9,13 +11,14 @@
 <div class="wrapper">
 
 <!--  welcome section  -->
-
     <section class="section welcome">
         <div class="container welcome__container">
             <header class="welcome__header">
-                <svg width="98" height="74" class="logo-icon">
-                    <use xlink:href="img/icons/sprite.svg#logo"></use>
-                </svg>
+                <a href="#" class="logo__link">
+                    <svg width="98" height="74" class="logo-icon">
+                        <use xlink:href="img/icons/sprite.svg#logo"></use>
+                    </svg>
+                </a>
                 <div class="header__buttons">
                     <nav class="header__menu">
                         <ul class="menu__list">
@@ -29,6 +32,7 @@
                         </ul>
                     </nav>
                     <a href="#" class="button welcome__order-button">заказать</a>
+                    <div class="burgers-menu-link"></div>
                 </div>
             </header>
             <div class="section__nav">
@@ -45,7 +49,9 @@
             </div>
             <div class="welcome__content">
                 <div class="content__example">
-                    <img src="img/content/burgers/burger_example.png" alt="burger example">
+                    <div class="example__img">
+                        <img src="img/content/burgers/burger_example.png" alt="burger example">
+                    </div>
                 </div>
                 <div class="content__text">
                     <h1 class="section-title welcome__section-title">Мы делаем</h1>
@@ -54,7 +60,7 @@
             </div>
             <div class="down__arrow">
                 <a href="#">
-                    <svg width="28.685px" height="14.479px">
+                    <svg width="28.685" height="14.479">
                         <use xlink:href="img/icons/sprite.svg#arrow-scroll"></use>
                     </svg>
                 </a>
@@ -64,7 +70,6 @@
     </section>
 
 <!--  best section  -->
-
     <section class="section best">
         <div class="container">
             <h2 class="section-title section-title--color-black section-title--centered best__section-title">мы лучшие</h2>
@@ -105,8 +110,8 @@
             </div>
         </div>
     </section>
-<!--  team section  -->
 
+<!--  team section  -->
     <section class="section team">
         <div class="container">
             <div class="team__menu">
@@ -164,7 +169,7 @@
         </div>
     </section>
 
-    <!--  menu section  -->
+<!--  menu section  -->
     <section class="section menu">
             <h2 class="section-title section-title--color-white section-title__menu">меню</h2>
                     <ul class="menu-acco">
@@ -210,11 +215,13 @@
                     </ul>
     </section>
 
-   <!-- review section -->
+<!-- review section -->
     <section class="section reviews">
         <ul class="reviews__list">
             <li class="reviews__item review">
-                <img src="img/content/review_avatars/1.jpg" alt="client photo" class="review__avatar">
+                <div class="review__avatar-wrap">
+                    <img src="img/content/review_avatars/1.jpg" alt="client photo" class="review__avatar">
+                </div>
                 <div class="review__hover">
                     <h3 class="review__title">Константин Спилберг</h3>
                     <div class="review__text">
@@ -224,7 +231,9 @@
                 </div>
             </li>
             <li class="reviews__item review">
-                <img src="img/content/review_avatars/2.jpg" alt="client photo" class="review__avatar">
+                <div class="review__avatar-wrap">
+                    <img src="img/content/review_avatars/2.jpg" alt="client photo" class="review__avatar">
+                </div>
                 <div class="review__hover">
                     <h3 class="review__title">Константин Спилберг</h3>
                     <div class="review__text">
@@ -234,7 +243,9 @@
                 </div>
             </li>
             <li class="reviews__item review">
-                <img src="img/content/review_avatars/3.jpg" alt="client photo" class="review__avatar">
+                <div class="review__avatar-wrap">
+                    <img src="img/content/review_avatars/3.jpg" alt="client photo" class="review__avatar">
+                </div>
                 <div class="review__hover">
                     <h3 class="review__title">Константин Спилберг</h3>
                     <div class="review__text">
@@ -244,7 +255,9 @@
                 </div>
             </li>
             <li class="reviews__item review">
-                <img src="img/content/review_avatars/4.jpg" alt="client photo" class="review__avatar">
+                <div class="review__avatar-wrap">
+                    <img src="img/content/review_avatars/4.jpg" alt="client photo" class="review__avatar">
+                </div>
                 <div class="review__hover">
                     <h3 class="review__title">Константин Спилберг</h3>
                     <div class="review__text">
@@ -254,7 +267,9 @@
                 </div>
             </li>
             <li class="reviews__item review">
-                <img src="img/content/review_avatars/5.jpg" alt="client photo" class="review__avatar">
+                <div class="review__avatar-wrap">
+                    <img src="img/content/review_avatars/5.jpg" alt="client photo" class="review__avatar">
+                </div>
                 <div class="review__hover">
                     <h3 class="review__title">Константин Спилберг</h3>
                     <div class="review__text">
@@ -264,7 +279,9 @@
                 </div>
             </li>
             <li class="reviews__item review">
-                <img src="img/content/review_avatars/6.jpg" alt="client photo" class="review__avatar">
+                <div class="review__avatar-wrap">
+                    <img src="img/content/review_avatars/6.jpg" alt="client photo" class="review__avatar">
+                </div>
                 <div class="review__hover">
                     <h3 class="review__title">Константин Спилберг</h3>
                     <div class="review__text">
@@ -274,7 +291,9 @@
                 </div>
             </li>
             <li class="reviews__item review">
-                <img src="img/content/review_avatars/7.jpg" alt="client photo" class="review__avatar">
+                <div class="review__avatar-wrap">
+                    <img src="img/content/review_avatars/7.jpg" alt="client photo" class="review__avatar">
+                </div>
                 <div class="review__hover">
                     <h3 class="review__title">Константин Спилберг</h3>
                     <div class="review__text">
@@ -284,7 +303,9 @@
                 </div>
             </li>
             <li class="reviews__item review">
-                <img src="img/content/review_avatars/8.jpg" alt="client photo" class="review__avatar">
+                <div class="review__avatar-wrap">
+                    <img src="img/content/review_avatars/8.jpg" alt="client photo" class="review__avatar">
+                </div>
                 <div class="review__hover">
                     <h3 class="review__title">Константин Спилберг</h3>
                     <div class="review__text">
@@ -297,9 +318,94 @@
         </ul>
     </section>
 
+<!-- order section  -->
+    <section class="section order">
+        <div class="container">
+            <h2 class="section-title section-title--centered section-title__order">Закажите доставку</h2>
+            <form class="order__form-tag" id="order-form">
+
+            <div class="order__form">
+                <div class="order__form-col order__form-col__left">
+                    <div class="order__form-row">
+                        <label class="order__form-block">
+                            <span class="order__form-label">Имя</span>
+                            <input class="order__form-input name-mask" name="name" type="text" placeholder>
+                        </label>
+
+                        <label class="order__form-block">
+                            <span class="order__form-label">Телефоны</span>
+                            <input class="order__form-input phone-mask" name="phone" type="text" placeholder>
+                        </label>
+
+                    </div>
+                    <div class="order__form-row">
+                        <label class="order__form-block">
+                            <span class="order__form-label">Улица</span>
+                            <input class="order__form-input street-mask" name="phone" type="text" placeholder>
+                        </label>
+                    </div>
+                    <div class="order__form-row">
+                        <label class="order__form-block">
+                            <span class="order__form-label">Дом</span>
+                            <input class="order__form-input house-mask" name="phone" type="text" placeholder>
+                        </label>
+
+                        <label class="order__form-block">
+                            <span class="order__form-label">Корпус</span>
+                            <input class="order__form-input wing-mask" name="phone" type="text" placeholder>
+                        </label>
+
+                        <label class="order__form-block">
+                            <span class="order__form-label">Квартира</span>
+                            <input class="order__form-input flat-mask" name="phone" type="text" placeholder>
+                        </label>
+
+                        <label class="order__form-block">
+                            <span class="order__form-label">Этаж</span>
+                            <input class="order__form-input floor-mask" name="phone" type="text" placeholder>
+                        </label>
+
+                    </div>
+                </div>
+
+                <div class="order__form-col order__form-col__right">
+                    <div class="order__form-row">
+                        <label class="order__form-block">
+                            <span class="order__form-label">Коментарий</span>
+                            <textarea name="comment" class="order__form-input order__comment" cols="30" rows="10" ></textarea>
+                        </label>
+                    </div>
+                    <div class="order__form-row form-row__payment">
+
+                        <label class="order__form-block payment-mask">
+                            <input type="radio" name="payment">
+                            <span>Потребуется сдача</span>
+                        </label>
+
+                        <label class="order__form-block">
+                            <input type="radio" name="payment">
+                            <span class="order__form-label--btns">Оплата по карте</span>
+                        </label>
+                    </div>
+                    <div class="order__form-row">
+                        <input type="checkbox"  id="callback">
+                        <label for="callback">Не перезванивать</label>
+                    </div>
+                    <div class="order__form-row">
+                        <input type="submit"  value="Заказать" class="button button-order">
+                        <input type="reset" id="reset" class="button-reset">
+
+                    </div>
+                </div>
+            </div>
+        </form>
+        </div>
+
+    </section>
+
 <!--  map section  -->
     <section class="section map">
-        <div class="container map__container">
+        <div class="map__container">
         <footer class="map__footer">
             <div class="footer__content">
                 <div class="footer__content__left">
@@ -338,9 +444,7 @@
                                 <use xlink:href="img/icons/sprite.svg#twitter" width="20" height="17"></use>
                             </svg>
                         </a>
-
                     </div>
-
                 </div>
             </div>
         </footer>

@@ -1,5 +1,5 @@
 .welcome{
-  background: url("../../img/backgrounds/first_page_bg-min.jpg")center center / cover no-repeat;
+  background: url("../img/backgrounds/first_page_bg-min.jpg")center center / cover no-repeat;
   position: relative;
 }
 
@@ -11,23 +11,49 @@
   display: flex;
   align-items: center;
   flex:.8;
+
+  @include tablets{
+    flex-direction: column;
+    padding: 0 15%;
+  }
 }
 
 .welcome__section-title{
   color: #f9b43b;
-  margin-bottom: 20px;
+  margin-bottom: rem(20px);
 }
+
+.content__example{
+  width: 50%;
+
+  @include tablets{
+    width: 100%;
+    align-items: center;
+  }
+}
+
+.example__img{
+  min-width: 100%;
+  min-height: 100%;
+}
+
 .content__text{
   width: 49%;
-  padding-left: 11px;
-  padding-top: 52px;
+  padding-left: rem(11px);
+  padding-top: rem(52px);
   line-height: 1;
+  
+  @include tablets{
+    width: 100%;
+    padding-top: 0;
+    text-align: center;
+  }
 }
 
 .welcome__desc{
-  font-family: "Lifehack Medium", sans-serif;
-  font-size: 65px;
+  font-family: Lifehack, sans-serif;
+  font-weight: normal;
+  font-size: rem(65px);
   color: #fff;
-
 }
 

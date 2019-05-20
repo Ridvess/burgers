@@ -1,0 +1,8 @@
+.order {
+  background: url("./img/backgrounds/order_bg.JPG") center center/cover no-repeat; }
+
+.order__form-col {
+  display: flex;
+  width: 50%; }
+
+/*# sourceMappingURL=order.css.map */

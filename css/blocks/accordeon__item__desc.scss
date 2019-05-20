@@ -1,22 +1,21 @@
 .accordeon__item__desc{
   display: flex;
-  margin-bottom: 13px;
+  margin-bottom: rem(13px);
   height: 0;
   overflow: hidden;
-  &-vertical{
-
+  @include tablets{
+    flex-direction: column;
+    align-items: center;
   }
 }
 
 .accordeon__item__title{
-  font-size: 14px;
+  font-size: rem(14px);
   color: #fff;
   text-transform: uppercase;
   position: relative;
-  padding-left: 15px;
-  &-vertical{
-    transform: rotate(270deg);
-  }
+  padding-left: rem(15px);
+
   &:before{
     content: '';
     width: 0;
@@ -27,12 +26,15 @@
     top: 5px;
     left: 0;
   }
+  @include tablets{
+    display: inline-flex;
+  }
 }
 
 .accordeon__desc__avatar{
-  width: 100px;
-  height: 100px;
+  width: rem(100px);
+  height: rem(100px);
   overflow: hidden;
   border-radius: 50%;
-  background: url("../../img/content/123456789 copy.JPG")center center / cover no-repeat;
+  background: url("../img/content/123456789 copy.JPG")center center / cover no-repeat;
 }

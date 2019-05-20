@@ -1,0 +1,67 @@
+.order__form{
+  display: flex;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 300;
+  font-size: rem(14px);
+
+  @include tablets{
+    margin-left: 0;
+    flex-direction: column;
+    padding: 0 15%;
+  }
+}
+
+.order__form-tag{
+  color: #fff;
+
+}
+
+.order__form-row{
+  display: flex;
+  margin-bottom: rem(13px);
+}
+
+
+.order__form-col{
+  width: 50%;
+  &__right{
+    width: 48%;
+    margin-left: 2%;
+  }
+  @include tablets{
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+.order__form-label{
+  display: flex;
+  margin-bottom: rem(10px);
+  &--btns{
+    display: inline;
+    margin-bottom: 0;
+    padding-top: -2px;
+  }
+}
+
+.order__form-input {
+  width: 100%;
+  border-radius: 4px;
+  height: rem(33px);
+}
+
+.order__form-block{
+  width: 100%;
+  margin-left: 3%;
+  &:first-child{
+    margin-left: 0;
+  }
+}
+.order__comment{
+  width: 100%;
+  height: rem(100px);
+}
+
+.payment-mask{
+  width: 50%;
+}

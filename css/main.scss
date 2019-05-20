@@ -4,9 +4,14 @@ $yellow: #f9b43b;
 $black: #2f3234;
 $red: #c1401e;
 
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
+
 //adjustment
-@import "../css/normalize.css";
-@import "../css/fonts.css";
+@import "normalize.css";
+@import "fonts.scss";
+@import "media.scss";
 
 //blocks style
 @import "blocks/button.scss";
@@ -20,18 +25,21 @@ $red: #c1401e;
 @import "blocks/accordeon__desc__text.scss";
 @import "blocks/accordeon__item.scss";
 @import "blocks/map__footer.scss";
-@import"blocks/menu__acco.scss";
-@import"blocks/svg__icons.scss";
+@import "blocks/menu__acco.scss";
+@import "blocks/svg__icons.scss";
+@import "blocks/order__form.scss";
+@import "blocks/burgers-menu-link.scss";
 
 
 //section style
-@import "../css/layouts/layout.scss";
+@import "layouts/layout.scss";
 @import "sections/welcome.scss";
 @import "sections/best.scss";
 @import "sections/reviews.scss";
-@import"sections/team.scss";
-@import"sections/menu.scss";
-@import"sections/map.scss";
+@import "sections/team.scss";
+@import "sections/menu.scss";
+@import "sections/map.scss";
+@import "sections/order.scss";
 
 
 

@@ -1,24 +1,69 @@
-@import url(../css/normalize.css);
-@import url(../css/fonts.css);
+@import url(normalize.css);
+@font-face {
+  font-family: 'Gagalin';
+  src: url("../fonts/gagalin-regular-webfont.woff") format("woff");
+  src: url("../fonts/gagalin-regular-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../fonts/ubuntu-b-webfont.woff") format("woff");
+  src: url("../fonts/ubuntu-b-webfont.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../fonts/ubuntu-light-webfont.woff") format("woff");
+  src: url("../fonts/ubuntu-light-webfont.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../fonts/ubuntu-medium-webfont.woff") format("woff");
+  src: url("../fonts/ubuntu-medium-webfont.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../fonts/ubuntu-regular-webfont.woff") format("woff");
+  src: url("../fonts/ubuntu-regular-webfont.woff2") format("woff2");
+  font-style: normal; }
+@font-face {
+  font-family: 'Lifehack';
+  src: url("../fonts/lifehack_medium-webfont.woff") format("woff");
+  src: url("../fonts/lifehack_medium-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic; }
 .button {
   color: #fff;
   text-decoration: none;
-  font-family: Ubuntu_Medium, sans-serif;
-  font-size: 13px;
+  font-family: Ubuntu, sans-serif;
   font-weight: 500;
+  font-size: 0.8125rem;
   background-color: #e45028;
   border-radius: 5px;
-  padding: 10px 15px; }
+  padding: 0.625rem 0.9375rem; }
   .button:hover {
     background-color: #c1401e; }
   .button--bg-black {
     background-color: #2f3234; }
     .button--bg-black:hover {
       background-color: #1f2122; }
+  .button-order {
+    border: none;
+    width: 6.0625rem; }
+  .button-reset {
+    border: none;
+    color: #fff;
+    background-color: transparent;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 300;
+    margin-left: 0.625rem; }
 
 .section-title {
   font-size: 72px;
-  font-family: Gagalin_Regular, sans-serif;
+  font-family: Gagalin, sans-serif;
+  font-weight: normal;
   color: #e45028; }
   .section-title--color-black {
     color: #2f3234; }
@@ -29,7 +74,8 @@
   .section-title--color-yellow {
     color: #f9b43b; }
   .section-title--desc__title {
-    font-family: Ubuntu_Bold, sans-serif;
+    font-family: Ubuntu, sans-serif;
+    font-weight: bold;
     font-size: 14px;
     color: #fff; }
 
@@ -37,7 +83,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 10px; }
+  padding-top: 0.625rem; }
+
+@media screen and (max-width: 768px) {
+  .header__menu {
+    display: none; } }
 
 .header__buttons {
   display: flex;
@@ -51,7 +101,7 @@
 .menu__item {
   display: flex;
   align-items: center;
-  margin-right: 15px; }
+  margin-right: 0.9375rem; }
   .menu__item:after {
     content: '';
     display: block;
@@ -59,7 +109,7 @@
     height: 4px;
     background: #fff;
     border-radius: 50%;
-    margin-left: 20px; }
+    margin-left: 1.25rem; }
   .menu__item:last-child {
     margin-right: 0; }
     .menu__item:last-child:after {
@@ -69,11 +119,12 @@
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: Ubuntu_Light, sans-serif;
-  font-size: 13px; }
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+  font-size: 0.8125rem; }
 
 .welcome__order-button {
-  margin-left: 15px;
+  margin-left: 0.9375rem;
   text-transform: uppercase; }
 
 .section__nav {
@@ -125,21 +176,20 @@
   margin-bottom: 10%; }
 
 .feature__title {
-  font-family: "Lifehack Medium", sans-serif;
-  font-size: 24px;
-  font-weight: 500;
+  font-family: Lifehack, sans-serif;
+  font-weight: normal;
+  font-size: 1.5rem;
   color: #2f3234;
-  margin-bottom: 10px; }
+  margin-bottom: 0.625rem; }
 
 .feature__text {
-  font-size: 14px;
-  font-family: Ubuntu_Light, sans-serif;
-  line-height: 1.6;
-  font-weight: 500; }
+  font-size: 0.875rem;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 300;
+  line-height: 1.6; }
 
 .review {
-  position: relative;
-  filter: grayscale(100%); }
+  position: relative; }
   .review:hover .review__hover {
     opacity: 1; }
 
@@ -147,6 +197,9 @@
   object-fit: cover;
   width: 100%;
   height: 100%; }
+  .review__avatar-wrap {
+    filter: grayscale(100%);
+    height: 100%; }
 
 .review__hover {
   position: absolute;
@@ -154,19 +207,23 @@
   left: 0;
   right: 0;
   bottom: 0;
+  width: 100%;
+  height: 100%;
   background: rgba(0, 0, 0, 0.8);
-  padding: 48px 12% 20px 7%;
+  padding: 10% 12% 0;
   color: #fff;
   opacity: 0;
   transition: opacity .3s; }
 
 .review__title {
-  font-family: Gagalin_Regular, sans-serif;
-  font-size: 14px;
+  font-family: Gagalin, sans-serif;
+  font-weight: normal;
+  font-size: 0.875rem;
   margin-bottom: 20px; }
 
 .review__text {
-  font-family: Ubuntu_Light, sans-serif;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 300;
   font-size: 13px;
   line-height: 1.5;
   margin-bottom: 12px; }
@@ -176,18 +233,20 @@
 
 .accordeon__item__desc {
   display: flex;
-  margin-bottom: 13px;
+  margin-bottom: 0.8125rem;
   height: 0;
   overflow: hidden; }
+  @media screen and (max-width: 768px) {
+    .accordeon__item__desc {
+      flex-direction: column;
+      align-items: center; } }
 
 .accordeon__item__title {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #fff;
   text-transform: uppercase;
   position: relative;
-  padding-left: 15px; }
-  .accordeon__item__title-vertical {
-    transform: rotate(270deg); }
+  padding-left: 0.9375rem; }
   .accordeon__item__title:before {
     content: '';
     width: 0;
@@ -197,29 +256,31 @@
     position: absolute;
     top: 5px;
     left: 0; }
+  @media screen and (max-width: 768px) {
+    .accordeon__item__title {
+      display: inline-flex; } }
 
 .accordeon__desc__avatar {
-  width: 100px;
-  height: 100px;
+  width: 6.25rem;
+  height: 6.25rem;
   overflow: hidden;
   border-radius: 50%;
-  background: url("../../img/content/123456789 copy.JPG") center center/cover no-repeat; }
+  background: url("../img/content/123456789 copy.JPG") center center/cover no-repeat; }
 
 .accordeon__desc__text {
-  width: 205px;
-  padding-left: 15px; }
+  width: 12.8125rem;
+  padding-left: 0.9375rem; }
 
 .accordeon__desc__text__content {
-  font-family: Ubuntu_Light, sans-serif;
-  font-size: 14px; }
+  font-family: Ubuntu, sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem; }
 
 .accordeon__item {
-  margin-bottom: 35px; }
-  .accordeon__item-vertical {
-    height: 100%;
-    width: 80px;
-    display: flex;
-    background: #fff; }
+  margin-bottom: 2.1875rem; }
+  @media screen and (max-width: 768px) {
+    .accordeon__item {
+      text-align: center; } }
   .accordeon__item-active .accordeon__item__title {
     color: #f9b43b; }
     .accordeon__item-active .accordeon__item__title:before {
@@ -229,13 +290,13 @@
     height: 100%;
     width: 100%; }
     .accordeon__item-active .accordeon__item__desc-vertical {
-      width: 180px;
+      width: 11.25rem;
       height: 100%; }
 
 .map__footer {
   display: flex;
   justify-content: center;
-  height: 60px;
+  height: 3.75rem;
   width: 100%;
   background: #000;
   position: absolute;
@@ -254,7 +315,7 @@
   height: 100%;
   justify-content: flex-start;
   color: #fff;
-  padding-top: 10px; }
+  padding-top: 0.625rem; }
 
 .footer__content__right {
   display: flex;
@@ -267,26 +328,28 @@
   width: auto; }
 
 .footer__content__address {
-  font-size: 14px;
-  font-family: Ubuntu_Light, sans-serif;
-  padding-bottom: 5px; }
+  font-size: 0.875rem;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 300;
+  padding-bottom: 0.3125rem; }
 
 .footer__content__phone {
   display: flex;
   color: #E45028;
-  font-family: Ubuntu_Bold, sans-serif;
-  font-size: 14px; }
+  font-family: Ubuntu, sans-serif;
+  font-weight: bold;
+  font-size: 0.875rem; }
 
 .phone-icon {
-  margin-top: 3px;
-  margin-right: 8px; }
+  margin-top: 0.1875rem;
+  margin-right: 0.5rem; }
 
 .content__right__icons {
-  padding-top: 18px; }
+  padding-top: 1.125rem; }
 
 .icon__link {
   text-decoration: none;
-  margin-right: 20px; }
+  margin-right: 1.25rem; }
 
 .vk-icon:hover {
   fill: #fff; }
@@ -321,7 +384,7 @@
 
 .menu-acco__trigger-title {
   position: absolute;
-  bottom: -13%;
+  bottom: -70px;
   left: 50%;
   white-space: nowrap;
   transform-origin: 0 0;
@@ -341,8 +404,9 @@
 
 .menu-acco__text {
   color: #fff;
-  font-family: Ubuntu_Light, sans-serif;
-  font-size: 14px;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
   padding-left: 6%;
   padding-right: 6%;
   padding-top: 12%;
@@ -363,12 +427,101 @@
 .twitter-icon {
   fill: #5b5b5b; }
 
+.order__form {
+  display: flex;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem; }
+  @media screen and (max-width: 768px) {
+    .order__form {
+      margin-left: 0;
+      flex-direction: column;
+      padding: 0 15%; } }
+
+.order__form-tag {
+  color: #fff; }
+
+.order__form-row {
+  display: flex;
+  margin-bottom: 0.8125rem; }
+
+.order__form-col {
+  width: 50%; }
+  .order__form-col__right {
+    width: 48%;
+    margin-left: 2%; }
+  @media screen and (max-width: 768px) {
+    .order__form-col {
+      margin-left: 0;
+      width: 100%; } }
+
+.order__form-label {
+  display: flex;
+  margin-bottom: 0.625rem; }
+  .order__form-label--btns {
+    display: inline;
+    margin-bottom: 0;
+    padding-top: -2px; }
+
+.order__form-input {
+  width: 100%;
+  border-radius: 4px;
+  height: 2.0625rem; }
+
+.order__form-block {
+  width: 100%;
+  margin-left: 3%; }
+  .order__form-block:first-child {
+    margin-left: 0; }
+
+.order__comment {
+  width: 100%;
+  height: 6.25rem; }
+
+.payment-mask {
+  width: 50%; }
+
+.burgers-menu-link {
+  vertical-align: middle;
+  position: relative;
+  height: 1.375rem;
+  align-items: center;
+  margin-left: 1.875rem;
+  display: none; }
+  @media screen and (max-width: 768px) {
+    .burgers-menu-link {
+      display: flex; } }
+
+.burger-menu-link__bars, .burger-menu-link__bars:before, .burger-menu-link__bars:after {
+  background: #fff;
+  width: 1.5rem;
+  height: 0.3125rem;
+  border-radius: 0.1875rem; }
+.burger-menu-link__bars:before, .burger-menu-link__bars:after {
+  content: '';
+  display: block;
+  position: absolute; }
+.burger-menu-link__bars:before {
+  top: 0; }
+.burger-menu-link__bars:after {
+  bottom: 0; }
+
+html {
+  font-size: 16px; }
+  @media screen and (max-width: 768px) {
+    html {
+      font-size: 15px; } }
+  @media screen and (max-width: 480px) {
+    html {
+      font-size: 14px; } }
+
 html, body {
   width: 100%;
   height: 100%; }
 
 .container {
-  width: 940px;
+  max-width: 940px;
+  width: 95%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -376,15 +529,15 @@ html, body {
   justify-content: center; }
 
 .wrapper {
+  position: relative;
+  width: 100%;
   overflow: hidden;
-  min-height: 100%;
-  min-width: 960px; }
+  min-height: 100%; }
 
 .section {
   height: 100vh;
   min-height: 650px; }
 
-s
 img {
   max-width: 100%; }
 
@@ -410,7 +563,7 @@ p {
   box-sizing: border-box; }
 
 .welcome {
-  background: url("../../img/backgrounds/first_page_bg-min.jpg") center center/cover no-repeat;
+  background: url("../img/backgrounds/first_page_bg-min.jpg") center center/cover no-repeat;
   position: relative; }
 
 .welcome__container {
@@ -420,24 +573,45 @@ p {
   display: flex;
   align-items: center;
   flex: .8; }
+  @media screen and (max-width: 768px) {
+    .welcome__content {
+      flex-direction: column;
+      padding: 0 15%; } }
 
 .welcome__section-title {
   color: #f9b43b;
-  margin-bottom: 20px; }
+  margin-bottom: 1.25rem; }
+
+.content__example {
+  width: 50%; }
+  @media screen and (max-width: 768px) {
+    .content__example {
+      width: 100%;
+      align-items: center; } }
+
+.example__img {
+  min-width: 100%;
+  min-height: 100%; }
 
 .content__text {
   width: 49%;
-  padding-left: 11px;
-  padding-top: 52px;
+  padding-left: 0.6875rem;
+  padding-top: 3.25rem;
   line-height: 1; }
+  @media screen and (max-width: 768px) {
+    .content__text {
+      width: 100%;
+      padding-top: 0;
+      text-align: center; } }
 
 .welcome__desc {
-  font-family: "Lifehack Medium", sans-serif;
-  font-size: 65px;
+  font-family: Lifehack, sans-serif;
+  font-weight: normal;
+  font-size: 4.0625rem;
   color: #fff; }
 
 .best {
-  background: url("../../img/backgrounds/second_pg_bg-min.jpg") center center no-repeat;
+  background: url("../img/backgrounds/second_pg_bg-min.jpg") center center no-repeat;
   background-size: cover; }
 
 .best__section-title {
@@ -452,7 +626,7 @@ p {
 
 .best__item {
   flex: 1;
-  margin-right: 10px; }
+  margin-right: 0.625rem; }
   .best__item:last-child {
     margin-right: 0; }
 
@@ -464,24 +638,36 @@ p {
 .reviews__item {
   width: 25%;
   height: 50%; }
+  @media screen and (max-width: 768px) {
+    .reviews__item {
+      width: 50%;
+      height: 25%; } }
 
 .team {
-  background: url("../../img/backgrounds/team_bg-min.JPG") center center/cover no-repeat;
+  background: url("../img/backgrounds/team_bg-min.JPG") center center/cover no-repeat;
   position: relative; }
 
 .team__menu {
   position: absolute;
-  left: 52%;
-  width: 48%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 50%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
   color: #fff; }
+  @media screen and (max-width: 768px) {
+    .team__menu {
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center; } }
 
 .menu__content {
   padding-left: 15%; }
 
 .menu {
-  background: url("../../img/backgrounds/menu_bg-min.jpg") center center/cover no-repeat;
+  background: url("../img/backgrounds/menu_bg-min.jpg") center center/cover no-repeat;
   position: relative; }
 
 .section-title__menu {
@@ -490,10 +676,17 @@ p {
   left: 7%; }
 
 .map {
-  background: url("../../img/backgrounds/contacts_bg-min.jpg") center center/cover no-repeat; }
+  background: url("../img/backgrounds/contacts_bg-min.jpg") center center/cover no-repeat; }
   .map .map__container {
     position: relative;
     width: 100%;
     height: 100%; }
+
+.order {
+  background: url("../img/backgrounds/order_bg.JPG") center center/cover no-repeat; }
+
+.section-title__order {
+  margin-bottom: 4%;
+  margin-top: -3%; }
 
 /*# sourceMappingURL=main.css.map */

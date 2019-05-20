@@ -1,5 +1,5 @@
 .map {
-  background: url("../../img/backgrounds/contacts_bg-min.jpg") center center/cover no-repeat; }
+  background: url("./img/backgrounds/contacts_bg-min.jpg") center center/cover no-repeat; }
   .map .map__container {
     position: relative;
     width: 100%;

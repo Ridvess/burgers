@@ -1,23 +1,23 @@
+
 .accordeon__item{
-  margin-bottom: 35px;
-  &-vertical{
-    height: 100%;
-    width: 80px;
-    display: flex;
-    background: #fff;
+  margin-bottom: rem(35px);
+  @include tablets{
+    text-align: center;
   }
+
   &-active{
     .accordeon__item__title {
       color: #f9b43b;
       &:before {
         border: 3px solid transparent;
         border-bottom: 5px solid yellow;
+
       }
     }
-    
+
     .accordeon__item__desc{
       &-vertical{
-        width: 180px;
+        width: rem(180px);
         height: 100%;
       }
       height: 100%;

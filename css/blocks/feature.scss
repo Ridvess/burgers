@@ -7,17 +7,17 @@
 }
 
 .feature__title{
-  font-family: "Lifehack Medium", sans-serif;
-  font-size: 24px;
-  font-weight: 500;
+  font-family: Lifehack, sans-serif;
+  font-weight: normal;
+  font-size: rem(24px);
   color: #2f3234;
-  margin-bottom: 10px;
+  margin-bottom: rem(10px);
 }
 
 .feature__text{
-  font-size: 14px;
-  font-family: Ubuntu_Light, sans-serif;
+  font-size: rem(14px);
+  font-family: Ubuntu, sans-serif;
+  font-weight: 300;
   line-height: 1.6;
-  font-weight: 500;
 
 }
