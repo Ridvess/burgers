@@ -1,0 +1,64 @@
+.menu-acco{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  width: 70%;
+
+  @include tablets{
+    width: 100%;
+  }
+
+}
+
+.menu-acco__item{
+  position: relative;
+  display: flex;
+}
+
+.menu-acco__trigger{
+  width: 80px;
+  position: relative;
+}
+
+.menu-acco__bg{
+  background-size: cover;
+}
+
+.menu-acco__trigger-title{
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+  white-space: nowrap;
+  transform-origin: 0 0;
+  transform: rotate(-90deg)
+  translateY(-50%);
+  font-size: 48px;
+
+}
+
+.menu-acco__content{
+  overflow: hidden;
+  width: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.active{
+  overflow: hidden;
+  width: 100%;
+  .menu-acco__trigger-title{
+    color: #f9b43b;
+  }
+}
+
+.menu-acco__text{
+  color: #fff;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 300;
+  font-size: rem(14px);
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 12%;
+  line-height: 1.7;
+}

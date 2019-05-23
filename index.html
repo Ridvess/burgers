@@ -2,17 +2,25 @@
 <html lang="ru-RU">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="TE=edge,chrome=1">
+    <meta name ="viewport" content="width=device-width,initial-scale=1">
     <title>Mr Burger</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <div class="wrapper">
+
+<!--  welcome section  -->
     <section class="section welcome">
         <div class="container welcome__container">
             <header class="welcome__header">
-                <img src="./img/logo_welcome.png" alt="site logo" class="header__logo">
+                <a href="#" class="logo__link">
+                    <svg width="98" height="74" class="logo-icon">
+                        <use xlink:href="img/icons/sprite.svg#logo"></use>
+                    </svg>
+                </a>
                 <div class="header__buttons">
-                    <nav class="menu">
+                    <nav class="header__menu">
                         <ul class="menu__list">
                             <li class="menu__item"><a class="menu__link" href="">о нас</a></li>
                             <li class="menu__item"><a class="menu__link" href="">бургеры</a></li>
@@ -24,23 +32,27 @@
                         </ul>
                     </nav>
                     <a href="#" class="button welcome__order-button">заказать</a>
+
+                        <a class="burgers-menu-link" href="#"><span class="burgers-menu-link__bars"></span></a>
+
                 </div>
             </header>
-            <div class="slider">
-                <ul class="slider__list">
-                    <li class="slider__item"></li>
-                    <li class="slider__item"></li>
-                    <li class="slider__item"></li>
-                    <li class="slider__item"></li>
-                    <li class="slider__item"></li>
-                    <li class="slider__item"></li>
-                    <li class="slider__item"></li>
-                    <li class="slider__item"></li>
+            <div class="section__nav">
+                <ul class="section__nav__list">
+                    <li class="section__nav__item section__nav__item-active"><a class="nav__item__link" href="#"></a></li>
+                    <li class="section__nav__item"><a class="nav__item__link" href="#"></a></li>
+                    <li class="section__nav__item"><a class="nav__item__link" href="#"></a></li>
+                    <li class="section__nav__item"><a class="nav__item__link" href="#"></a></li>
+                    <li class="section__nav__item"><a class="nav__item__link" href="#"></a></li>
+                    <li class="section__nav__item"><a class="nav__item__link" href="#"></a></li>
+                    <li class="section__nav__item"><a class="nav__item__link" href="#"></a></li>
                 </ul>
             </div>
             <div class="welcome__content">
                 <div class="content__example">
-                    <img src="img/content/burgers/burger_example.PNG" alt="burger example">
+                    <div class="example__img">
+                        <img src="img/content/burgers/burger_example.png" alt="burger example">
+                    </div>
                 </div>
                 <div class="content__text">
                     <h1 class="section-title welcome__section-title">Мы делаем</h1>
@@ -49,21 +61,25 @@
             </div>
             <div class="down__arrow">
                 <a href="#">
-                    <img src="img/icons/arrow-scroll.svg" alt="arrow scroll">
+                    <svg width="28.685" height="14.479">
+                        <use xlink:href="img/icons/sprite.svg#arrow-scroll"></use>
+                    </svg>
                 </a>
             </div>
         </div>
 
     </section>
+
+<!--  best section  -->
     <section class="section best">
         <div class="container">
-            <h2 class="section-title section-title--color-black section-title--centered best__section-title">
-                мы лучшие
-            </h2>
+            <h2 class="section-title section-title--color-black section-title--centered best__section-title">мы лучшие</h2>
             <div class="best__content">
                 <ul class="best__list">
                     <li class="best__item feature">
-                        <img src="img/icons/meat.svg" alt="meat icon" class="feature__icon">
+                        <svg width="119" height="87" class="feature__icon feature__icon-meat">
+                            <use xlink:href="img/icons/sprite.svg#meat" ></use>
+                        </svg>
                         <div class="feature__desc">
                             <h3 class="feature__title">100% свежее мясо</h3>
                             <div class="feature__text">
@@ -71,7 +87,9 @@
                             </div>
                         </div>
                     </li><li class="best__item feature">
-                        <img src="img/icons/hand.svg" alt="hand icon" class="feature__icon">
+                    <svg width="116" height="87" class="feature__icon feature__icon-hand">
+                        <use xlink:href="img/icons/sprite.svg#hand" ></use>
+                    </svg>
                         <div class="feature__desc">
                             <h3 class="feature__title">Ручная работа</h3>
                             <div class="feature__text">
@@ -79,7 +97,9 @@
                             </div>
                         </div>
                     </li><li class="best__item feature">
-                        <img src="img/icons/natural.svg" alt="leaf icon" class="feature__icon">
+                    <svg width="106" height="87" class="feature__icon feature__icon-natural">
+                        <use xlink:href="img/icons/sprite.svg#natural" ></use>
+                    </svg>
                         <div class="feature__desc">
                             <h3 class="feature__title">Натуральные ингридиенты</h3>
                             <div class="feature__text">
@@ -91,10 +111,126 @@
             </div>
         </div>
     </section>
+
+<!--  team section  -->
+    <section class="section team">
+        <div class="container">
+            <div class="team__menu">
+                <div class="menu__content">
+                    <h3 class="section-title section-title--color-yellow section-title__team">Команда</h3>
+                    <div class="menu__accordeon">
+                        <ul class="accordeon__list">
+                            <li class="accordeon__item">
+                                <a class="accordeon__item__link" href="#">
+                                    <h4 class="section-title accordeon__item__title"> дэниэл редклифф</h4>
+                                </a>
+
+                                <div class="accordeon__item__desc">
+                                    <div class="accordeon__desc__avatar"></div>
+                                    <div class="accordeon__desc__text">
+                                        <h5 class="section-title section-title--desc__title">Оператор</h5>
+                                        <p class="accordeon__desc__text__content">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="accordeon__item">
+                                <a class="accordeon__item__link" href="#">
+                                    <h4 class="section-title accordeon__item__title">ричард джеймсон</h4>
+                                </a>
+                                <div class="accordeon__item__desc">
+                                    <div class="accordeon__desc__avatar"></div>
+                                    <div class="accordeon__desc__text">
+                                        <h5 class="section-title section-title--desc__title">Оператор</h5>
+                                        <p class="accordeon__desc__text__content">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="accordeon__item accordeon__item-active">
+                                <a class="accordeon__item__link" href="#">
+                                    <h4 class="section-title accordeon__item__title">джэйк финн</h4>
+                                </a>
+                                <div class="accordeon__item__desc">
+                                    <div class="accordeon__desc__avatar"></div>
+                                    <div class="accordeon__desc__text">
+                                        <h5 class="section-title section-title--desc__title">Оператор</h5>
+                                        <p class="accordeon__desc__text__content">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="accordeon__item">
+                                <a class="accordeon__item__link" href="#">
+                                    <h4 class="section-title accordeon__item__title">николай иванов</h4>
+                                </a>
+                                <div class="accordeon__item__desc">
+                                    <div class="accordeon__desc__avatar"></div>
+                                    <div class="accordeon__desc__text">
+                                        <h5 class="section-title section-title--desc__title">Оператор</h5>
+                                        <p class="accordeon__desc__text__content">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--  menu section  -->
+    <section class="section menu">
+            <h2 class="section-title section-title--color-white section-title__menu">меню</h2>
+                    <ul class="menu-acco">
+                        <li class="menu-acco__item active">
+                            <a href="#" class="menu-acco__trigger menu-acco__bg menu-acco__bg-meat"
+                               style="background-image: 
+                               url(' ./img/content/acco__meat.JPG')">
+                                <h4 class="section-title menu-acco__trigger-title section-title--color-white ">для мясоедов</h4>
+                            </a>
+
+                            <div class="menu-acco__content active">
+                                <div class="menu-acco__text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Autem consectetur consequuntur cum delectus doloremque eos facilis fugit harum magnam minus modi non,
+                                        obcaecati officia pariatur quae reiciendis suscipit ullam, voluptatibus!</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="menu-acco__item">
+                            <a href="#" class="menu-acco__trigger  menu-acco__bg menu-acco__bg-vegan"
+                               style="background-image:
+                               url(' ./img/content/acco_vegan.JPG')">
+                                <h4 class="section-title menu-acco__trigger-title section-title--color-white">для вегитарианцев</h4>
+                            </a>
+                            <div class="menu-acco__content">
+                                <div class="menu-acco__text">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="menu-acco__item" style="">
+                            <a href="#" class="menu-acco__trigger menu-acco__bg menu-acco__bg-diet"
+                               style="background-image:
+                               url(' ./img/content/acco__diet.JPG')">
+                                <h4 class="section-title menu-acco__trigger-title section-title--color-white">диетический</h4>
+                            </a>
+                            <div class="menu-acco__content">
+                                <div class="menu-acco__text">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+    </section>
+
+<!-- review section -->
     <section class="section reviews">
         <ul class="reviews__list">
             <li class="reviews__item review">
-                <img src="img/content/review_avatars/1.jpg" alt="client photo" class="review__avatar">
+                <div class="review__avatar-wrap">
+                    <img src="img/content/review_avatars/1.jpg" alt="client photo" class="review__avatar">
+                </div>
                 <div class="review__hover">
                     <h3 class="review__title">Константин Спилберг</h3>
                     <div class="review__text">
@@ -104,7 +240,9 @@
                 </div>
             </li>
             <li class="reviews__item review">
-                <img src="img/content/review_avatars/2.jpg" alt="client photo" class="review__avatar">
+                <div class="review__avatar-wrap">
+                    <img src="img/content/review_avatars/2.jpg" alt="client photo" class="review__avatar">
+                </div>
                 <div class="review__hover">
                     <h3 class="review__title">Константин Спилберг</h3>
                     <div class="review__text">
@@ -114,7 +252,9 @@
                 </div>
             </li>
             <li class="reviews__item review">
-                <img src="img/content/review_avatars/3.jpg" alt="client photo" class="review__avatar">
+                <div class="review__avatar-wrap">
+                    <img src="img/content/review_avatars/3.jpg" alt="client photo" class="review__avatar">
+                </div>
                 <div class="review__hover">
                     <h3 class="review__title">Константин Спилберг</h3>
                     <div class="review__text">
@@ -124,7 +264,9 @@
                 </div>
             </li>
             <li class="reviews__item review">
-                <img src="img/content/review_avatars/4.jpg" alt="client photo" class="review__avatar">
+                <div class="review__avatar-wrap">
+                    <img src="img/content/review_avatars/4.jpg" alt="client photo" class="review__avatar">
+                </div>
                 <div class="review__hover">
                     <h3 class="review__title">Константин Спилберг</h3>
                     <div class="review__text">
@@ -134,7 +276,9 @@
                 </div>
             </li>
             <li class="reviews__item review">
-                <img src="img/content/review_avatars/5.jpg" alt="client photo" class="review__avatar">
+                <div class="review__avatar-wrap">
+                    <img src="img/content/review_avatars/5.jpg" alt="client photo" class="review__avatar">
+                </div>
                 <div class="review__hover">
                     <h3 class="review__title">Константин Спилберг</h3>
                     <div class="review__text">
@@ -144,7 +288,9 @@
                 </div>
             </li>
             <li class="reviews__item review">
-                <img src="img/content/review_avatars/6.jpg" alt="client photo" class="review__avatar">
+                <div class="review__avatar-wrap">
+                    <img src="img/content/review_avatars/6.jpg" alt="client photo" class="review__avatar">
+                </div>
                 <div class="review__hover">
                     <h3 class="review__title">Константин Спилберг</h3>
                     <div class="review__text">
@@ -154,7 +300,9 @@
                 </div>
             </li>
             <li class="reviews__item review">
-                <img src="img/content/review_avatars/7.jpg" alt="client photo" class="review__avatar">
+                <div class="review__avatar-wrap">
+                    <img src="img/content/review_avatars/7.jpg" alt="client photo" class="review__avatar">
+                </div>
                 <div class="review__hover">
                     <h3 class="review__title">Константин Спилберг</h3>
                     <div class="review__text">
@@ -164,11 +312,13 @@
                 </div>
             </li>
             <li class="reviews__item review">
-                <img src="img/content/review_avatars/8.jpg" alt="client photo" class="review__avatar">
+                <div class="review__avatar-wrap">
+                    <img src="img/content/review_avatars/8.jpg" alt="client photo" class="review__avatar">
+                </div>
                 <div class="review__hover">
                     <h3 class="review__title">Константин Спилберг</h3>
                     <div class="review__text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem consequuntur ducimus esse laboriosam modi molestiae sint ut! Atque deleniti dolorem dolores doloribus ducimus, fugit impedit libero magni recusandae repellat tempore.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem consequuntur ducimus esse laboriosam modi molestiae sint ut!</p>
                     </div>
                     <a href="#" class="button button--bg-black">Подробнее</a>
                 </div>
@@ -176,9 +326,146 @@
 
         </ul>
     </section>
+
+<!-- order section  -->
+    <section class="section order">
+        <div class="container">
+            <h2 class="section-title section-title--color-yellow section-title--centered section-title__order">Закажите доставку</h2>
+            <form class="order__form-tag" id="order-form">
+
+            <div class="order__form">
+                <div class="order__form-col order__form-col__left">
+                    <div class="order__form-row">
+                        <label class="order__form-block">
+                            <span class="order__form-label">Имя</span>
+                            <input class="order__form-input name-mask" name="name" type="text" placeholder>
+                        </label>
+
+                        <label class="order__form-block">
+                            <span class="order__form-label">Телефоны</span>
+                            <input class="order__form-input phone-mask" name="phone" type="text" placeholder>
+                        </label>
+
+                    </div>
+                    <div class="order__form-row">
+                        <label class="order__form-block">
+                            <span class="order__form-label">Улица</span>
+                            <input class="order__form-input street-mask" name="phone" type="text" placeholder>
+                        </label>
+                    </div>
+                    <div class="order__form-row">
+                        <label class="order__form-block">
+                            <span class="order__form-label">Дом</span>
+                            <input class="order__form-input house-mask" name="phone" type="text" placeholder>
+                        </label>
+
+                        <label class="order__form-block">
+                            <span class="order__form-label">Корпус</span>
+                            <input class="order__form-input wing-mask" name="phone" type="text" placeholder>
+                        </label>
+
+                        <label class="order__form-block">
+                            <span class="order__form-label">Квартира</span>
+                            <input class="order__form-input flat-mask" name="phone" type="text" placeholder>
+                        </label>
+
+                        <label class="order__form-block">
+                            <span class="order__form-label">Этаж</span>
+                            <input class="order__form-input floor-mask" name="phone" type="text" placeholder>
+                        </label>
+
+                    </div>
+                </div>
+
+                <div class="order__form-col order__form-col__right">
+                    <div class="order__form-row">
+                        <label class="order__form-block">
+                            <span class="order__form-label">Коментарий</span>
+                            <textarea name="comment" class="order__form-input order__comment" cols="30" rows="10" ></textarea>
+                        </label>
+                    </div>
+
+                    <div class="order__form-row form-row__payment">
+                        <label class="order__form-block payment-mask">
+                            <input class="form__radio-btn form__btn--hidden" type="radio" name="payment">
+                            <span class="form__radio-btn--custom"></span>
+                            <span class="order__form-label--btns">Потребуется сдача</span>
+                        </label>
+
+                        <label class="order__form-block">
+                            <input class="form__radio-btn form__btn--hidden" type="radio" name="payment">
+                            <span class="form__radio-btn--custom"></span>
+                            <span class="order__form-label--btns">Оплата по карте</span>
+                        </label>
+                    </div>
+
+                    <div class="order__form-row form-row__callback">
+                        <input class="form__checkbox  form__btn--hidden" type="checkbox"  id="callback">
+                        <span class="checkbox__custom"></span>
+                        <label for="callback" class="order__form-label--checkbox">Не перезванивать</label>
+                    </div>
+                    <div class="order__form-row">
+                        <input type="submit"  value="Заказать" class="button button-order">
+                        <input type="reset" id="reset" class="button-reset">
+
+                    </div>
+                </div>
+            </div>
+        </form>
+        </div>
+
+    </section>
+
+<!--  map section  -->
+    <section class="section map">
+        <div class="map__container">
+        <footer class="map__footer">
+            <div class="footer__content">
+                <div class="footer__content__left">
+                    <div class="footer__content__address">
+                        <p>Санкт-Петербург, ул.Бабушкина, д.12/1, 15</p>
+                    </div>
+                    <div class="footer__content__phone">
+                        <svg class="phone-icon" width="11" height="11" >
+                            <use  xlink:href="img/icons/sprite.svg#phone" width="11" height="11"></use>
+                        </svg>
+                        <p>+7 (812) 377-13-77</p>
+                    </div>
+                </div>
+                <div class="footer__content__right">
+                    <div class="content__right__icons">
+                        <a href="#" class="icon__link">
+                            <svg class="vk-icon" width="25" height="15">
+                                <use xlink:href="img/icons/sprite.svg#vk" width="25" height="15"></use>
+                            </svg>
+                        </a>
+
+                        <a href="#" class="icon__link">
+                            <svg class="fb-icon" width="20" height="20">
+                                <use xlink:href="img/icons/sprite.svg#fb" width="20" height="20"></use>
+                            </svg>
+                        </a>
+
+                        <a href="#" class="icon__link">
+                            <svg class="inst-icon"  width="20" height="20">
+                                <use xlink:href="img/icons/sprite.svg#inst" width="20" height="20"></use>
+                            </svg>
+                        </a>
+
+                        <a href="#" class="icon__link">
+                            <svg class="twitter-icon" width="20" height="17">
+                                <use xlink:href="img/icons/sprite.svg#twitter" width="20" height="17"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </div>
+    </section>
+
 </div>
 </body>
 </html>
-
 
 

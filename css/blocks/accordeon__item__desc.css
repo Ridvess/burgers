@@ -1,0 +1,32 @@
+.accordeon__item__desc {
+  display: flex;
+  margin-bottom: 13px;
+  height: 0;
+  overflow: hidden; }
+
+.accordeon__item__title {
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  padding-left: 15px; }
+  .accordeon__item__title-vertical {
+    transform: rotate(270deg); }
+  .accordeon__item__title:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border: 3px solid transparent;
+    border-top: 5px solid yellow;
+    position: absolute;
+    top: 5px;
+    left: 0; }
+
+.accordeon__desc__avatar {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  background: url("./img/content/123456789 copy.JPG") center center/cover no-repeat; }
+
+/*# sourceMappingURL=accordeon__item__desc.css.map */

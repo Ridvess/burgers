@@ -1,13 +1,32 @@
 .section-title{
-  font-size: 72px;
-  font-family: Gagalin_Regular, sans-serif;
+  font-size: rem(72px);
+  font-family: Gagalin, sans-serif;
+  font-weight: normal;
   color: #e45028;
-
+  
+  @include phones{
+    font-size: rem(50px);
+  }
   &--color-black{
       color: #2f3234;
   }
 
+  &--color-white{
+    color: #fff;
+  }
+
   &--centered{
     text-align: center;
+  }
+
+  &--color-yellow{
+    color: #f9b43b;
+  }
+  &--desc__title{
+    font-family: Ubuntu, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    
   }
 }
