@@ -3,6 +3,9 @@
   left: 95%;
   top: 15%;
   z-index: 10;
+  @include tablets{
+    display: none;
+  }
 }
 
 .section__nav__item{
@@ -40,7 +43,14 @@
       border-radius: 50%;
       border: 1px solid white;
     }
-
-
   }
 }
+
+.nav__item__link{
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: -5px;
+  top: -5px;
+}
+

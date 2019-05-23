@@ -2,6 +2,10 @@
   background: url("../img/backgrounds/team_bg-min.JPG")center center / cover no-repeat;
   position: relative;
 }
+.section-title__team{
+  padding-top: 100px;
+  margin-bottom: 30px;
+}
 
 .team__menu {
   position: absolute;
@@ -22,5 +26,8 @@
 
 .menu__content{
   padding-left: 15%;
+  @include tablets{
+    padding-left: 0;
+  }
 }
 

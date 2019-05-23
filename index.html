@@ -32,19 +32,20 @@
                         </ul>
                     </nav>
                     <a href="#" class="button welcome__order-button">заказать</a>
-                    <div class="burgers-menu-link"></div>
+
+                        <a class="burgers-menu-link" href="#"><span class="burgers-menu-link__bars"></span></a>
+
                 </div>
             </header>
             <div class="section__nav">
                 <ul class="section__nav__list">
-                    <li class="section__nav__item section__nav__item-active"><a href="#"></a></li>
-                    <li class="section__nav__item"><a href=""></a></li>
-                    <li class="section__nav__item"><a href=""></a></li>
-                    <li class="section__nav__item"><a href=""></a></li>
-                    <li class="section__nav__item"><a href=""></a></li>
-                    <li class="section__nav__item"><a href=""></a></li>
-                    <li class="section__nav__item"><a href=""></a></li>
-                    <li class="section__nav__item"><a href=""></a></li>
+                    <li class="section__nav__item section__nav__item-active"><a class="nav__item__link" href="#"></a></li>
+                    <li class="section__nav__item"><a class="nav__item__link" href="#"></a></li>
+                    <li class="section__nav__item"><a class="nav__item__link" href="#"></a></li>
+                    <li class="section__nav__item"><a class="nav__item__link" href="#"></a></li>
+                    <li class="section__nav__item"><a class="nav__item__link" href="#"></a></li>
+                    <li class="section__nav__item"><a class="nav__item__link" href="#"></a></li>
+                    <li class="section__nav__item"><a class="nav__item__link" href="#"></a></li>
                 </ul>
             </div>
             <div class="welcome__content">
@@ -116,11 +117,14 @@
         <div class="container">
             <div class="team__menu">
                 <div class="menu__content">
-                    <h3 class="section-title section-title--color-yellow">Команда</h3>
+                    <h3 class="section-title section-title--color-yellow section-title__team">Команда</h3>
                     <div class="menu__accordeon">
                         <ul class="accordeon__list">
                             <li class="accordeon__item">
-                                <h4 class="section-title accordeon__item__title"> дэниэл редклифф</h4>
+                                <a class="accordeon__item__link" href="#">
+                                    <h4 class="section-title accordeon__item__title"> дэниэл редклифф</h4>
+                                </a>
+
                                 <div class="accordeon__item__desc">
                                     <div class="accordeon__desc__avatar"></div>
                                     <div class="accordeon__desc__text">
@@ -130,7 +134,9 @@
                                 </div>
                             </li>
                             <li class="accordeon__item">
-                                <h4 class="section-title accordeon__item__title">ричард джеймсон</h4>
+                                <a class="accordeon__item__link" href="#">
+                                    <h4 class="section-title accordeon__item__title">ричард джеймсон</h4>
+                                </a>
                                 <div class="accordeon__item__desc">
                                     <div class="accordeon__desc__avatar"></div>
                                     <div class="accordeon__desc__text">
@@ -141,7 +147,9 @@
                             </li>
 
                             <li class="accordeon__item accordeon__item-active">
-                                <h4 class="section-title accordeon__item__title">джэйк финн</h4>
+                                <a class="accordeon__item__link" href="#">
+                                    <h4 class="section-title accordeon__item__title">джэйк финн</h4>
+                                </a>
                                 <div class="accordeon__item__desc">
                                     <div class="accordeon__desc__avatar"></div>
                                     <div class="accordeon__desc__text">
@@ -152,7 +160,9 @@
                             </li>
 
                             <li class="accordeon__item">
-                                <h4 class="section-title accordeon__item__title">николай иванов</h4>
+                                <a class="accordeon__item__link" href="#">
+                                    <h4 class="section-title accordeon__item__title">николай иванов</h4>
+                                </a>
                                 <div class="accordeon__item__desc">
                                     <div class="accordeon__desc__avatar"></div>
                                     <div class="accordeon__desc__text">
@@ -320,7 +330,7 @@
 <!-- order section  -->
     <section class="section order">
         <div class="container">
-            <h2 class="section-title section-title--centered section-title__order">Закажите доставку</h2>
+            <h2 class="section-title section-title--color-yellow section-title--centered section-title__order">Закажите доставку</h2>
             <form class="order__form-tag" id="order-form">
 
             <div class="order__form">
@@ -374,21 +384,25 @@
                             <textarea name="comment" class="order__form-input order__comment" cols="30" rows="10" ></textarea>
                         </label>
                     </div>
-                    <div class="order__form-row form-row__payment">
 
+                    <div class="order__form-row form-row__payment">
                         <label class="order__form-block payment-mask">
-                            <input type="radio" name="payment">
-                            <span>Потребуется сдача</span>
+                            <input class="form__radio-btn form__btn--hidden" type="radio" name="payment">
+                            <span class="form__radio-btn--custom"></span>
+                            <span class="order__form-label--btns">Потребуется сдача</span>
                         </label>
 
                         <label class="order__form-block">
-                            <input type="radio" name="payment">
+                            <input class="form__radio-btn form__btn--hidden" type="radio" name="payment">
+                            <span class="form__radio-btn--custom"></span>
                             <span class="order__form-label--btns">Оплата по карте</span>
                         </label>
                     </div>
-                    <div class="order__form-row">
-                        <input type="checkbox"  id="callback">
-                        <label for="callback">Не перезванивать</label>
+
+                    <div class="order__form-row form-row__callback">
+                        <input class="form__checkbox  form__btn--hidden" type="checkbox"  id="callback">
+                        <span class="checkbox__custom"></span>
+                        <label for="callback" class="order__form-label--checkbox">Не перезванивать</label>
                     </div>
                     <div class="order__form-row">
                         <input type="submit"  value="Заказать" class="button button-order">

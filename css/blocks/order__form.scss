@@ -19,6 +19,10 @@
 .order__form-row{
   display: flex;
   margin-bottom: rem(13px);
+
+  @include phones{
+    justify-content: center;
+  }
 }
 
 
@@ -40,7 +44,9 @@
   &--btns{
     display: inline;
     margin-bottom: 0;
-    padding-top: -2px;
+    padding-left: 10px;
+    vertical-align: top;
+    cursor: pointer;
   }
 }
 
@@ -48,11 +54,91 @@
   width: 100%;
   border-radius: 4px;
   height: rem(33px);
+  outline: none;
+
+  &:focus{
+    border: 2px solid #f9b43b;
+    border-radius: 4px;
+  }
 }
+
+.form-row__payment{
+  @include phones{
+    margin-bottom: rem(30px);
+  }
+}
+
+.form-row__callback{
+  @include phones{
+    margin-bottom: rem(30px);
+  }
+
+}
+.form__btn--hidden{
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.form__radio-btn--custom{
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  width: rem(15px);
+  height: rem(15px);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked + .form__radio-btn--custom:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  bottom: 4px;
+  left: 4px;
+  border-radius: 50%;
+  background: #e35028;
+}
+
+.order__form-label--checkbox{
+  padding-left: rem(28px);
+  margin-left: rem(-10px);
+  z-index: 10;
+  cursor: pointer;
+
+
+}
+
+.checkbox__custom{
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  width: rem(15px);
+  height: rem(15px);
+}
+
+input[type="checkbox"]:checked + .checkbox__custom:before{
+  position: absolute;
+  content: "";
+  display: block;
+  left: 2px;
+  top: 4px;
+  width: 8px;
+  height: 3px;
+  border-radius: 1px;
+  border-left: 3px solid #e35028;
+  border-bottom: 3px solid #e35028;
+  transform: rotate(-45deg);
+}
+
 
 .order__form-block{
   width: 100%;
-  margin-left: 3%;
+  margin-left: 20px;
+  white-space: nowrap;
+  cursor: pointer;
   &:first-child{
     margin-left: 0;
   }

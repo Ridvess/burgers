@@ -1,17 +1,76 @@
-.button {
-  color: #fff;
-  text-decoration: none;
-  font-family: Ubuntu_Medium, sans-serif;
-  font-size: 13px;
-  font-weight: 500;
-  background-color: #e45028;
-  border-radius: 5px;
-  padding: 10px 15px; }
-  .button:hover {
-    background-color: #c1401e; }
-  .button--bg-black {
-    background-color: #2f3234; }
-    .button--bg-black:hover {
-      background-color: #1f2122; }
+/*
+Error: Undefined variable: "$red".
+        on line 13 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\button.scss
 
-/*# sourceMappingURL=button.css.map */
+8:   background-color: #e45028;
+9:   border-radius: 5px;
+10:   padding: rem(10px) rem(15px);
+11: 
+12:   &:hover{
+13:     background-color:  $red;
+14:   }
+15: 
+16:   &--bg-black{
+17:     background-color: #2f3234;
+18:     &:hover{
+
+Backtrace:
+C:\Users\Roman\WebstormProjects\Burgers\css\blocks\button.scss:13
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+F:/koalaPrepro/bin/sass:22:in `load'
+F:/koalaPrepro/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$red\".\A         on line 13 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\button.scss\A \A 8:   background-color: #e45028;\A 9:   border-radius: 5px;\A 10:   padding: rem(10px) rem(15px);\A 11: \A 12:   &:hover{\A 13:     background-color:  $red;\A 14:   }\A 15: \A 16:   &--bg-black{\A 17:     background-color: #2f3234;\A 18:     &:hover{"; }

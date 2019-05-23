@@ -1,69 +1,69 @@
-.map__footer {
-  display: flex;
-  justify-content: center;
-  height: 60px;
-  width: 100%;
-  background: #000;
-  position: absolute;
-  bottom: 0; }
+/*
+Error: Undefined mixin 'phones'.
+        on line 10 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\map__footer.scss, in `phones'
+        from line 10 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\map__footer.scss
 
-.footer__content {
-  display: flex;
-  flex-direction: row;
-  height: 100%;
-  width: 85%;
-  align-items: center;
-  color: #ffff; }
+5:   height: rem(60px);
+6:   width: 100%;
+7:   background: #000;
+8:   position: absolute;
+9:   bottom: 0;
+10:   @include phones{
+11:     height: rem(115px);
+12:   }
+13: 
+14: }
+15: .footer__content{
 
-.footer__content__left {
-  width: 50%;
-  height: 100%;
-  justify-content: flex-start;
-  color: #fff;
-  padding-top: 10px; }
-
-.footer__content__right {
-  display: flex;
-  width: 50%;
-  height: 100%;
-  justify-content: flex-end; }
-
-.vk {
-  height: 100%;
-  width: auto; }
-
-.footer__content__address {
-  font-size: 14px;
-  font-family: Ubuntu_Light, sans-serif;
-  padding-bottom: 5px; }
-
-.footer__content__phone {
-  display: flex;
-  color: #E45028;
-  font-family: Ubuntu_Bold, sans-serif;
-  font-size: 14px; }
-
-.phone-icon {
-  margin-top: 3px;
-  margin-right: 8px; }
-
-.content__right__icons {
-  padding-top: 18px; }
-
-.icon__link {
-  text-decoration: none;
-  margin-right: 20px; }
-
-.vk-icon:hover {
-  fill: #fff; }
-
-.fb-icon:hover {
-  fill: #fff; }
-
-.inst-icon:hover {
-  fill: #fff; }
-
-.twitter-icon:hover {
-  fill: #fff; }
-
-/*# sourceMappingURL=map__footer.css.map */
+Backtrace:
+C:\Users\Roman\WebstormProjects\Burgers\css\blocks\map__footer.scss:10:in `phones'
+C:\Users\Roman\WebstormProjects\Burgers\css\blocks\map__footer.scss:10
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `with_mixin'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+F:/koalaPrepro/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+F:/koalaPrepro/bin/sass:22:in `load'
+F:/koalaPrepro/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'phones'.\A         on line 10 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\map__footer.scss, in `phones'\A         from line 10 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\map__footer.scss\A \A 5:   height: rem(60px);\A 6:   width: 100%;\A 7:   background: #000;\A 8:   position: absolute;\A 9:   bottom: 0;\A 10:   @include phones{\A 11:     height: rem(115px);\A 12:   }\A 13: \A 14: }\A 15: .footer__content{"; }

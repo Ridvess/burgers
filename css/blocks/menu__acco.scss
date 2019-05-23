@@ -6,6 +6,10 @@
   display: flex;
   width: 70%;
 
+  @include tablets{
+    width: 100%;
+  }
+
 }
 
 .menu-acco__item{

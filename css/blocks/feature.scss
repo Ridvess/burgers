@@ -1,5 +1,16 @@
+.feature{
+  @include phones{
+    display: inline-flex;
+  }
+}
+
 .feature__desc{
   text-align: center;
+  @include phones{
+    text-align: left;
+    width: 90%;
+    padding-left: 19px;
+  }
 }
 
 .feature__icon{

@@ -7,6 +7,9 @@
   background: #000;
   position: absolute;
   bottom: 0;
+  @include phones{
+    height: rem(115px);
+  }
 
 }
 .footer__content{
@@ -16,12 +19,25 @@
   width: 85%;
   align-items: center;
   color: #ffff;
+  @include phones{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    white-space: nowrap;
+  }
 
 }
 
-.footer__content__left {
+.footer__content__left, .footer__content__right{
   width: 50%;
   height: 100%;
+
+  @include phones{
+    width: 100%;
+  }
+}
+
+.footer__content__left {
   justify-content: flex-start;
   color: #fff;
   padding-top: rem(10px);
@@ -30,9 +46,11 @@
 
 .footer__content__right{
   display: flex;
-  width: 50%;
-  height: 100%;
   justify-content: flex-end;
+
+  @include phones{
+    display: block;
+  }
 }
 
 .vk{
@@ -48,7 +66,7 @@
 }
 
 .footer__content__phone{
-  display: flex;
+  display: inline-flex;
   color: #E45028;
   font-family: Ubuntu, sans-serif;
   font-weight: bold;

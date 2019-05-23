@@ -2,36 +2,39 @@
   vertical-align: middle;
   position: relative;
   height: rem(22px);
+  width: 22px;
   align-items: center;
-  margin-left: rem(30px);
-  display: none;
+  display: flex;
   @include tablets{
     display: flex;
   }
 }
 
 .burger-menu-link__bars{
-  &,
-  &:before,
-  &:after {
-    background: #fff;
+    background-color: #fff;
     width: rem(24px);
     height: rem(5px);
     border-radius:rem(3px) ;
-  }
 
-  &:before,
-  &:after {
+  &:before{
+    background-color: #fff;
+    width: rem(24px);
+    height: rem(5px);
+    border-radius:rem(3px) ;
     content: '';
     display: block;
     position: absolute;
-  }
-
-  &:before{
     top: 0;
   }
-  &:after{
+  &:after {
+    background-color: #fff;
+    width: rem(24px);
+    height: rem(5px);
+    border-radius:rem(3px) ;
+    content: '';
+    display: block;
+    position: absolute;
     bottom: 0;
   }
 
-}
+  }
