@@ -309,13 +309,6 @@
     .accordeon__item-active .accordeon__item__title:before {
       border: 3px solid transparent;
       border-bottom: 5px solid yellow; }
-    @media screen and (max-width: 480px) {
-      .accordeon__item-active .accordeon__item__title {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0; } }
   .accordeon__item-active .accordeon__item__desc {
     height: 100%;
     width: 100%; }
@@ -637,6 +630,71 @@ input[type="checkbox"]:checked + .checkbox__custom:before {
     position: absolute;
     bottom: 0; }
 
+.burger__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  .burger__content-right {
+    flex-direction: column; }
+  .burger__content-left {
+    position: relative; }
+
+.content__ingredients {
+  position: absolute;
+  width: 88px;
+  height: 88px;
+  background: #f08c33;
+  border-radius: 4px;
+  top: -82px;
+  left: -25px; }
+
+.content__left__img {
+  display: flex; }
+
+.burger-icon {
+  position: absolute;
+  left: 22px;
+  top: 14px; }
+
+.ingredients__text {
+  position: absolute;
+  bottom: 12px;
+  left: 22px; }
+
+.kkal__icon {
+  position: absolute;
+  bottom: -72px;
+  left: -6px;
+  width: 60px;
+  height: 80px; }
+
+.kkal__number {
+  position: absolute;
+  bottom: 32px;
+  left: 14px; }
+
+.kkal__text {
+  position: absolute;
+  left: 16px;
+  bottom: -1px; }
+
+.section-title__burgers {
+  margin-bottom: 50px; }
+
+.side-arrow--left {
+  transform: rotate(90deg); }
+
+.side-arrow--right {
+  transform: rotate(-90deg); }
+
+.burger__content-left, .burger__content-right {
+  display: flex;
+  width: 40%; }
+
+.content__desc__order {
+  display: flex; }
+
 html {
   font-size: 16px; }
   @media screen and (max-width: 768px) {
@@ -828,5 +886,18 @@ p {
 .section-title__order {
   margin-bottom: 4%;
   margin-top: -3%; }
+
+.burgers {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f9b43b+0,eb8d38+49,eb8d38+69,f9b43b+100 */
+  background: #f9b43b;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f9b43b 0%, #eb8d38 65%, #eb8d38 35%, #f9b43b 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f9b43b 0%, #eb8d38 65%, #eb8d38 35%, #f9b43b 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f9b43b 0%, #eb8d38 65%, #eb8d38 35%, #f9b43b 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b43b', endColorstr='#f9b43b',GradientType=0 );
+  /* IE6-9 */ }
 
 /*# sourceMappingURL=main.css.map */
