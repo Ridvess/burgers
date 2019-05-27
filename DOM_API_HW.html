@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM API homework</title>
+</head>
+<body>
+    <div class="container" id="container"></div>
+<!--    задание №1-->
+    <script>
+        const  element1 = document.createElement('div');
+        element1.textContent = "Этот элемент создан при помощи DOM API";
+        const container = document.querySelector('#container');
+        container.appendChild(element1);
+
+// задание 2
+
+        const element2 = document.createElement('div');
+        element2.className = "inner";
+        element2.textContent = "этот элемент тоже создан при помощи DOM API"
+        element1.appendChild(element2);
+
+// задание №3
+
+        element2.style.color = 'red';
+
+// задание №4
+
+        element1.addEventListener("click", function () {
+            console.log('Этот текст говорит о том, что я всё сделал правильно')
+        });
+
+//    задание №5
+
+        const link = document.createElement("a");
+        link.textContent = "ссылка";
+        link.href = 'https://loftschool.com';
+        element1.appendChild(link);
+        link.addEventListener("click", function (e) {
+            console.log("я кликнул на ссылку " + link.href);
+            e.preventDefault();
+        })
+//   задание №6
+        const button = document.createElement("button");
+        button.textContent = "кнопка";
+        container.appendChild(button);
+        const input = document.createElement("input");
+        container.appendChild(input);
+        button.addEventListener("click",function (e) {
+            e.preventDefault();
+            console.log(input.value)
+        })
+    </script>
+</body>
+</html>
