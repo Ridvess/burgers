@@ -259,6 +259,10 @@
   font-size: 13px;
   line-height: 1.5;
   margin-bottom: 12px; }
+  @media screen and (max-width: 480px) {
+    .review__text {
+      display: none;
+      text-align: center; } }
 
 .button--bg-black {
   text-transform: uppercase; }
@@ -673,6 +677,10 @@ input[type="checkbox"]:checked + .checkbox__custom:before {
   position: absolute;
   bottom: 0.75rem;
   left: 1.375rem; }
+  @media screen and (max-width: 480px) {
+    .ingredients__text {
+      bottom: 0.5rem;
+      left: 1.25rem; } }
 
 .burgers__title, .kkal__number, .kkal__text {
   font-family: Gagalin, sans-serif;
@@ -683,6 +691,9 @@ input[type="checkbox"]:checked + .checkbox__custom:before {
   position: absolute;
   left: 1.375rem;
   top: 0.875rem; }
+  @media screen and (max-width: 480px) {
+    .burger-icon {
+      left: 1.25rem; } }
 
 .kkal-icon {
   fill: rgba(255, 255, 255, 0.7); }
@@ -705,12 +716,19 @@ input[type="checkbox"]:checked + .checkbox__custom:before {
   color: rgba(255, 255, 255, 0.7);
   bottom: 2rem;
   left: 1.0625rem; }
+  @media screen and (max-width: 480px) {
+    .kkal__number {
+      left: 1.375rem; } }
 
 .kkal__text {
   position: absolute;
   left: 1rem;
   bottom: -1px;
   color: rgba(255, 255, 255, 0.7); }
+  @media screen and (max-width: 480px) {
+    .kkal__text {
+      left: 1.1875rem;
+      bottom: -0.25rem; } }
 
 .section-title__burgers {
   margin-bottom: 3.125rem;
@@ -752,7 +770,8 @@ input[type="checkbox"]:checked + .checkbox__custom:before {
   width: 40%; }
   @media screen and (max-width: 768px) {
     .burger__content-left, .burger__content-right {
-      width: 60%; } }
+      width: 60%;
+      text-align: center; } }
 
 .content__desc__order {
   display: flex;

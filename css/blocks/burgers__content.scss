@@ -34,6 +34,10 @@
   position: absolute;
   bottom: rem(12px);
   left: rem(22px);
+  @include phones{
+    bottom: rem(8px);
+    left: rem(20px);
+  }
 }
 
 .burgers__title, .kkal__number, .kkal__text {
@@ -47,6 +51,9 @@
   position: absolute;
   left: rem(22px);
   top: rem(14px);
+  @include phones{
+    left: rem(20px);
+  }
 }
 
 .kkal-icon{
@@ -73,6 +80,9 @@
   color: rgba(255, 255, 255, .7);
   bottom: rem(32px);
   left: rem(17px);
+  @include phones{
+    left: rem(22px);
+  }
 }
 
 .kkal__text{
@@ -80,6 +90,10 @@
   left: rem(16px);
   bottom: -1px;
   color: rgba(255, 255, 255, .7);
+  @include phones{
+    left: rem(19px);
+    bottom: rem(-4px);
+  }
 }
 
 .section-title__burgers{
@@ -128,6 +142,7 @@
   width: 40%;
   @include tablets{
     width: 60%;
+    text-align: center;
   }
 }
 

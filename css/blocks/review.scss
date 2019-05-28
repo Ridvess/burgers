@@ -47,6 +47,10 @@
   font-size: 13px;
   line-height: 1.5;
   margin-bottom: 12px;
+  @include phones{
+    display: none;
+    text-align: center;
+  }
 }
 
 .button--bg-black{
