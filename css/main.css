@@ -135,6 +135,10 @@
 .welcome__order-button {
   margin-left: 0.9375rem;
   text-transform: uppercase; }
+  @media screen and (max-width: 768px) {
+    .welcome__order-button {
+      display: block;
+      margin-right: 35%; } }
 
 .section__nav {
   position: fixed;
@@ -602,38 +606,42 @@ input[type="checkbox"]:checked + .checkbox__custom:before {
 
 .burgers-menu-link {
   vertical-align: middle;
-  position: relative;
+  margin-left: 5px;
+  position: fixed;
+  right: 1.25rem;
   height: 1.375rem;
-  width: 22px;
+  width: 1.375rem;
   align-items: center;
-  display: flex; }
+  display: none;
+  z-index: 1000; }
   @media screen and (max-width: 768px) {
     .burgers-menu-link {
       display: flex; } }
 
-.burger-menu-link__bars {
+.burgers-menu-link__bar {
   background-color: #fff;
-  width: 1.5rem;
+  width: 1.375rem;
   height: 0.3125rem;
-  border-radius: 0.1875rem; }
-  .burger-menu-link__bars:before {
+  border-radius: 0.1875rem;
+  position: relative; }
+  .burgers-menu-link__bar:before {
     background-color: #fff;
-    width: 1.5rem;
+    width: 1.375rem;
     height: 0.3125rem;
     border-radius: 0.1875rem;
     content: '';
     display: block;
     position: absolute;
-    top: 0; }
-  .burger-menu-link__bars:after {
+    top: -9px; }
+  .burgers-menu-link__bar:after {
     background-color: #fff;
-    width: 1.5rem;
+    width: 1.375rem;
     height: 0.3125rem;
     border-radius: 0.1875rem;
     content: '';
     display: block;
     position: absolute;
-    bottom: 0; }
+    bottom: -9px; }
 
 .burger__content {
   display: flex;
@@ -760,6 +768,52 @@ input[type="checkbox"]:checked + .checkbox__custom:before {
 .order__price {
   font-size: 72px; }
 
+.hamburger__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  z-index: 999;
+  overflow: hidden;
+  height: 0; }
+
+.active {
+  height: 100%; }
+
+.ham-menu__list {
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.ham-menu__link {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.45; }
+
+.ham-menu__item {
+  display: inline-block;
+  align-items: center;
+  margin-right: 0.9375rem; }
+  .ham-menu__item:after {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 4px;
+    background: #fff;
+    border-radius: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%); }
+  .ham-menu__item:last-child {
+    margin-right: 0; }
+    .ham-menu__item:last-child:after {
+      display: none; }
+
 html {
   font-size: 16px; }
   @media screen and (max-width: 768px) {
@@ -772,6 +826,9 @@ html {
 html, body {
   width: 100%;
   height: 100%; }
+
+.hidden {
+  overflow: hidden; }
 
 .container {
   max-width: 940px;

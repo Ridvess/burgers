@@ -1,40 +1,48 @@
 .burgers-menu-link{
   vertical-align: middle;
-  position: relative;
+  margin-left: 5px;
+  position: fixed;
+  right: rem(20px);
   height: rem(22px);
-  width: 22px;
+  width: rem(22px);
   align-items: center;
-  display: flex;
+  display: none;
+  z-index: 1000;
   @include tablets{
     display: flex;
   }
 }
 
-.burger-menu-link__bars{
+.open + .burgers-menu-link__bar{
+
+
+}
+
+.burgers-menu-link__bar{
     background-color: #fff;
-    width: rem(24px);
+    width: rem(22px);
     height: rem(5px);
     border-radius:rem(3px) ;
+    position: relative;
 
   &:before{
     background-color: #fff;
-    width: rem(24px);
+    width: rem(22px);
     height: rem(5px);
     border-radius:rem(3px) ;
     content: '';
     display: block;
     position: absolute;
-    top: 0;
+    top: -9px;
   }
   &:after {
     background-color: #fff;
-    width: rem(24px);
+    width: rem(22px);
     height: rem(5px);
     border-radius:rem(3px) ;
     content: '';
     display: block;
     position: absolute;
-    bottom: 0;
+    bottom: -9px;
   }
-
-  }
+}

@@ -6,12 +6,13 @@
     <meta name ="viewport" content="width=device-width,initial-scale=1">
     <title>Mr Burger</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="JavaScript/burgersMenuOverlay.js" defer></script>
 </head>
 <body>
 <div class="wrapper">
 
 <!--  welcome section  -->
-    <section class="section welcome">
+    <section class="section welcome" id="welcome">
         <div class="container welcome__container">
             <header class="welcome__header">
                 <a href="#" class="logo__link">
@@ -22,18 +23,20 @@
                 <div class="header__buttons">
                     <nav class="header__menu">
                         <ul class="menu__list">
-                            <li class="menu__item"><a class="menu__link" href="">о нас</a></li>
-                            <li class="menu__item"><a class="menu__link" href="">бургеры</a></li>
-                            <li class="menu__item"><a class="menu__link" href="#">команда</a></li>
-                            <li class="menu__item"><a class="menu__link" href="#">меню</a></li>
-                            <li class="menu__item"><a class="menu__link" href="#">отзывы</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#welcome">о нас</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#burgers">бургеры</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#team">команда</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#menu">меню</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#reviews">отзывы</a></li>
                             <li class="menu__item"><a class="menu__link" href="#">как мы работаем</a></li>
-                            <li class="menu__item"><a class="menu__link" href="#">контакты</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#map">контакты</a></li>
                         </ul>
                     </nav>
                     <a href="#" class="button welcome__order-button">заказать</a>
 
-                        <a class="burgers-menu-link" href="#"><span class="burgers-menu-link__bars"></span></a>
+                        <a class="burgers-menu-link" href="#" id="hamburgerMenu">
+                            <span class="burgers-menu-link__bar"></span>
+                        </a>
 
                 </div>
             </header>
@@ -70,8 +73,24 @@
 
     </section>
 
+<!--  menu overlay  -->
+    <nav class="hamburger__overlay" id="hamburgerOverlay">
+        <div class="nav-main__menu">
+            <ul class="ham-menu__list">
+                <li class="ham-menu__item"><a href="#welcome" class="ham-menu__link">главная</a></li>
+                <li class="ham-menu__item"><a href="#best" class="ham-menu__link">о нас</a></li>
+                <li class="ham-menu__item"><a href="#burgers" class="ham-menu__link">бургеры</a></li>
+                <li class="ham-menu__item"><a href="#team" class="ham-menu__link">команда</a></li>
+                <li class="ham-menu__item"><a href="#menu" class="ham-menu__link">меню</a></li>
+                <li class="ham-menu__item"><a href="#reviews" class="ham-menu__link">отзывы</a></li>
+                <li class="ham-menu__item"><a href="#order" class="ham-menu__link">заказать</a></li>
+                <li class="ham-menu__item"><a href="#map" class="ham-menu__link">контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
 <!--  best section  -->
-    <section class="section best">
+    <section class="section best" id="best">
         <div class="container">
             <h2 class="section-title section-title--color-black section-title--centered best__section-title">мы лучшие</h2>
             <div class="best__content">
@@ -114,7 +133,7 @@
 
 
 <!--  burger section  -->
-    <div class="section burgers">
+    <div class="section burgers" id="burgers">
         <div class="container">
             <div class="burger__content">
                 <a href="" class="side-arrow--left__link">
@@ -173,7 +192,7 @@
 
 
 <!--  team section  -->
-    <section class="section team">
+    <section class="section team" id="team">
         <div class="container">
             <div class="team__menu">
                 <div class="menu__content">
@@ -239,7 +258,7 @@
     </section>
 
 <!--  menu section  -->
-    <section class="section menu">
+    <section class="section menu" id="menu">
             <h2 class="section-title section-title--color-white section-title__menu">меню</h2>
                     <ul class="menu-acco">
                         <li class="menu-acco__item active">
@@ -285,7 +304,7 @@
     </section>
 
 <!-- review section -->
-    <section class="section reviews">
+    <section class="section reviews" id="reviews">
         <ul class="reviews__list">
             <li class="reviews__item review">
                 <div class="review__avatar-wrap">
@@ -388,7 +407,7 @@
     </section>
 
 <!-- order section  -->
-    <section class="section order">
+    <section class="section order" id="order">
         <div class="container">
             <h2 class="section-title section-title--color-yellow section-title--centered section-title__order">Закажите доставку</h2>
             <form class="order__form-tag" id="order-form">
@@ -477,7 +496,7 @@
     </section>
 
 <!--  map section  -->
-    <section class="section map">
+    <section class="section map" id="map">
         <div class="map__container">
         <footer class="map__footer">
             <div class="footer__content">
@@ -525,6 +544,7 @@
     </section>
 
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </body>
 </html>
 

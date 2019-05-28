@@ -58,4 +58,8 @@
 .welcome__order-button{
   margin-left: rem(15px);
   text-transform: uppercase;
+  @include tablets{
+    display: block;
+    margin-right: 35%;
+  }
 }
