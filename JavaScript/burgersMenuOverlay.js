@@ -1,13 +1,13 @@
 //jQuery code
 
-const body = $("body");
-const overlay  = $("#hamburgerOverlay");
-const menu = $("#hamburgerMenu");
-const link = $(".ham-menu__link");
-const classes = ["open", "active", "hidden"];
-const elements = [menu, overlay, body];
+let body = $("body");
+let overlay  = $("#hamburgerOverlay");
+let menu = $("#hamburgerMenu");
+let link = $(".ham-menu__link");
+let classes = ["open", "active", "hidden"];
+let elements = [menu, overlay, body];
 
-const _toggleClass = (element, className) => {
+var _toggleClass = (element, className) => {
     element.forEach((item, index) => $(item).toggleClass(className[index]));
 };
 
@@ -24,7 +24,6 @@ $(link).on("click", function (e) {
 
     if ($(scroll_el).length > 0) {
         $("html").animate({scrollTop: $(scroll_el).offset().top}, 600, () =>{
-            console.log("animation");
             _toggleClass(elements,classes);
         });
     }

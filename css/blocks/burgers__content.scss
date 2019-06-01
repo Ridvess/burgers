@@ -9,6 +9,8 @@
   @include tablets{
     flex-direction: column;
     width: 100%;
+    padding-top: 25%;
+    padding-bottom: 5%;
   }
   &-right{
     flex-direction: column;
@@ -18,6 +20,11 @@
     position: relative;
 
   }
+}
+
+.content__left__img{
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .content__ingredients{
@@ -119,24 +126,7 @@
   height: 34px;
 }
 
-.side-arrow--left{
-  transform: rotate(90deg);
-  @include tablets{
-    position: absolute;
-    left: 0;
-    top: 50%;
-  }
-}
 
-.side-arrow--right{
-  transform: rotate(-90deg);
-
-  @include tablets{
-    position: absolute;
-    right: 0;
-    top: 50%;
-  }
-}
 
 .burger__content-left, .burger__content-right{
   width: 40%;

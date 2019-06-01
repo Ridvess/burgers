@@ -7,6 +7,7 @@
     <title>Mr Burger</title>
     <link rel="stylesheet" href="css/main.css">
     <script src="JavaScript/burgersMenuOverlay.js" defer></script>
+    <script src="JavaScript/accoMenuTeam.js" defer></script>
 </head>
 <body>
 <div class="wrapper">
@@ -135,12 +136,12 @@
 <!--  burger section  -->
     <div class="section burgers" id="burgers">
         <div class="container">
+            <a href="" class="side-arrow--left__link">
+                <svg class=" side-arrow--left" width="26" height="15">
+                    <use xlink:href="./img/icons/sprite.svg#arrow-scroll"></use>
+                </svg>
+            </a>
             <div class="burger__content">
-                <a href="" class="side-arrow--left__link">
-                    <svg class=" side-arrow--left" width="26" height="15">
-                            <use xlink:href="./img/icons/sprite.svg#arrow-scroll"></use>
-                    </svg>
-                </a>
                 <div class="burger__content-left">
                     <div class="content__ingredients">
                         <svg class="burger-icon" width="45" height="45">
@@ -169,7 +170,7 @@
 
                 </div>
                 <div class="burger__content-right">
-                    <h2 class="section-title section-title__burgers">Sandwich burger</h2>
+                    <h2 class="section-title section-title--color-white section-title__burgers">Sandwich burger</h2>
                     <div class="burger__content__desc">
                         <div class="content__desc__text">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci eveniet explicabo labore laudantium suscipit.</p>
@@ -180,13 +181,12 @@
                         </div>
                     </div>
                 </div>
-
-                <a href="" class="side-arrow--link__right">
-                    <svg class="side-arrow--right" width="26" height="15">
-                            <use xlink:href="./img/icons/sprite.svg#arrow-scroll"></use>
-                    </svg>
-                </a>
             </div>
+            <a href="" class="side-arrow--link__right">
+                <svg class="side-arrow--right" width="26" height="15">
+                    <use xlink:href="./img/icons/sprite.svg#arrow-scroll"></use>
+                </svg>
+            </a>
         </div>
     </div>
 
@@ -199,11 +199,11 @@
                     <h3 class="section-title section-title--color-yellow section-title__team">Команда</h3>
                     <div class="menu__accordeon">
                         <ul class="accordeon__list">
-                            <li class="accordeon__item">
+
+                            <li class="accordeon__item" id="accoTeamItem">
                                 <a class="accordeon__item__link" href="#">
                                     <h4 class="section-title accordeon__item__title"> дэниэл редклифф</h4>
                                 </a>
-
                                 <div class="accordeon__item__desc">
                                     <div class="accordeon__desc__avatar"></div>
                                     <div class="accordeon__desc__text">
@@ -225,7 +225,7 @@
                                 </div>
                             </li>
 
-                            <li class="accordeon__item accordeon__item-active">
+                            <li class="accordeon__item">
                                 <a class="accordeon__item__link" href="#">
                                     <h4 class="section-title accordeon__item__title">джэйк финн</h4>
                                 </a>
