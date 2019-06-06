@@ -1,9 +1,10 @@
 .accordeon__desc__text {
-  width: 205px;
-  padding-left: 15px; }
+  width: rem(205px);
+  padding-left: rem(15px); }
 
 .accordeon__desc__text__content {
-  font-family: Ubuntu_Light, sans-serif;
-  font-size: 14px; }
+  font-family: Ubuntu, sans-serif;
+  font-weight: 300;
+  font-size: rem(14px); }
 
 /*# sourceMappingURL=accordeon__desc__text.css.map */
