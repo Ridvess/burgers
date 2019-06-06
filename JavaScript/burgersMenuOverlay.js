@@ -13,7 +13,7 @@ var _toggleClass = (element, className) => {
 
 $(menu).on("click", e => {
     e.preventDefault();
-
+// cross animation
     _toggleClass(elements, classes);
 });
 

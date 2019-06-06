@@ -1,0 +1,46 @@
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .7);
+  width: 100%;
+  z-index: 9999;
+  overflow: hidden;
+  height: 100%;
+}
+
+.overlay__container{
+  vertical-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 300px;
+  background: #fff;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px;
+}
+.overlay__close{
+  position: absolute;
+  top: 12%;
+  right: 5%;
+  height: 10px;
+  width: 10px;
+  cursor: pointer;
+}
+
+.overlay__title{
+  font-family: Gagalin, sans-serif;
+  font-weight: normal;
+  color: #000;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.overlay__text{
+  font-family: Ubuntu, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}

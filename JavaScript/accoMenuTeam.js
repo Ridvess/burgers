@@ -6,12 +6,13 @@ let accoLink = $(document.getElementsByClassName('accordeon__item__link'));
 let teamClasses = ["accordeon__item-active"];
 let teamElements = [item];
 
-for (let i = 0; i < accoLink.length; i++){
-    accHD[i].addEventListener('click', toggleItem, false);}
 
 $(teamLink).on("click", function (e) {
     e.preventDefault();
-    _toggleClass(teamElements, teamClasses)
-;
-
+    _toggleClass(teamElements, teamClasses);
 });
+
+for (let i = 0; i < accoLink.length; i++){
+    accoItem[i].addEventListener('click', toggleItem, false);
+
+}

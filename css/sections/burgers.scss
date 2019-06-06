@@ -12,6 +12,10 @@
   position: absolute;
 }
 
+.side-arrow--link__left, .side-arrow--link__right {
+  z-index: 20;
+}
+
 
 .side-arrow--right{
   transform: rotate(-90deg);
@@ -27,7 +31,6 @@
 
 .side-arrow--left{
   transform: rotate(90deg);
-
   left: 5%;
   top: 50%;
   @include tablets{

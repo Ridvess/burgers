@@ -1,26 +1,3 @@
-.burger__content{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  position: relative;
-  flex: .8;
-
-  @include tablets{
-    flex-direction: column;
-    width: 100%;
-    padding-top: 25%;
-    padding-bottom: 5%;
-  }
-  &-right{
-    flex-direction: column;
-
-  }
-  &-left{
-    position: relative;
-
-  }
-}
 
 .content__left__img{
   padding-top: 10px;
@@ -35,6 +12,13 @@
   border-radius: 4px;
   top: rem(-82px);
   left: rem(-25px);
+  &:hover{
+    cursor: pointer;
+    background:  #e35028;
+    .ingredients__menu{
+      left: 82px;
+    }
+  }
 }
 .ingredients__text{
   color: #fff;
@@ -141,6 +125,7 @@
   justify-content: space-around;
 }
 .desc__order__title{
+  padding-bottom: 20px;
   font-size: 30px;
   font-family: Gagalin, sans-serif;
   font-weight: normal;

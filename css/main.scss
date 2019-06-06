@@ -31,6 +31,10 @@ $phones: 480px;
 @import "blocks/burgers-menu-link.scss";
 @import "blocks/burgers__content.scss";
 @import "blocks/menu__overlay.scss";
+@import "blocks/slider.scss";
+@import "blocks/ingredients__menu.scss";
+@import "blocks/overlay.scss";
+@import "blocks/video__player.scss";
 
 
 //section style
@@ -43,6 +47,7 @@ $phones: 480px;
 @import "sections/map.scss";
 @import "sections/order.scss";
 @import "sections/burgers.scss";
+@import "sections/work.scss";
 
 
 

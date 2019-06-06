@@ -13,11 +13,6 @@
   }
 }
 
-.open + .burgers-menu-link__bar{
-
-
-}
-
 .burgers-menu-link__bar{
     background-color: #fff;
     width: rem(22px);
@@ -46,3 +41,29 @@
     bottom: -9px;
   }
 }
+
+.open{
+
+  .burgers-menu-link{
+    right: 20px;
+  }
+
+  .burgers-menu-link__bar {
+    width: 0;
+
+    &:before {
+      top: 0;
+      transform: rotate(45deg);
+      width: 25px;
+
+    }
+
+    &:after {
+      width: 25px;
+      top: 0;
+      transform: rotate(-45deg);
+    }
+  }
+}
+
+
