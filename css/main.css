@@ -184,7 +184,8 @@
   height: 16px;
   position: absolute;
   left: -5px;
-  top: -5px; }
+  top: -5px;
+  z-index: 12; }
 
 .down__arrow {
   display: block;
@@ -958,6 +959,12 @@ input[type="checkbox"]:checked + .checkbox__custom:before {
   display: flex;
   justify-content: center; }
 
+.one-page-scroll {
+  height: 100%;
+  min-height: 650px;
+  transition: transform 1s;
+  will-change: transform; }
+
 html {
   font-size: 16px; }
   @media screen and (max-width: 768px) {
@@ -986,8 +993,8 @@ html, body {
 .wrapper {
   position: relative;
   width: 100%;
-  overflow: hidden;
-  min-height: 100%; }
+  height: 100%;
+  overflow: hidden; }
 
 .section {
   height: 100vh;
@@ -1060,6 +1067,9 @@ p {
   font-weight: normal;
   font-size: 4.0625rem;
   color: #fff; }
+  @media screen and (max-width: 480px) {
+    .welcome__desc {
+      font-size: 2.8125rem; } }
 
 .best {
   background: url("../img/backgrounds/second_pg_bg-min.jpg") center center no-repeat;
@@ -1139,10 +1149,12 @@ p {
     .section-title__menu {
       display: none; } }
 
-.map .map__container {
-  position: relative;
-  width: 100%;
-  height: 100%; }
+.map {
+  position: relative; }
+  .map .map__container {
+    position: relative;
+    width: 100%;
+    height: 100%; }
 
 .order {
   background: url("../img/backgrounds/order_bg.JPG") center center/cover no-repeat; }
