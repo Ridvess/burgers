@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 9 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\menu__acco.scss, in `tablets'
-        from line 9 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\menu__acco.scss
+        on line 10 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\menu__acco.scss, in `tablets'
+        from line 10 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\menu__acco.scss
 
-4:   bottom: 0;
 5:   right: 0;
 6:   display: flex;
 7:   width: 70%;
-8: 
-9:   @include tablets{
-10:     width: 100%;
-11:   }
-12: 
-13: }
-14: 
+8:   justify-content: flex-end;
+9: 
+10:   @include tablets{
+11:     width: 100%;
+12:   }
+13: 
+14: }
+15: 
 
 Backtrace:
-C:\Users\Roman\WebstormProjects\Burgers\css\blocks\menu__acco.scss:9:in `tablets'
-C:\Users\Roman\WebstormProjects\Burgers\css\blocks\menu__acco.scss:9
+C:\Users\Roman\WebstormProjects\Burgers\css\blocks\menu__acco.scss:10:in `tablets'
+C:\Users\Roman\WebstormProjects\Burgers\css\blocks\menu__acco.scss:10
 F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -66,4 +66,4 @@ F:/koalaPrepro/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 9 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\menu__acco.scss, in `tablets'\A         from line 9 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\menu__acco.scss\A \A 4:   bottom: 0;\A 5:   right: 0;\A 6:   display: flex;\A 7:   width: 70%;\A 8: \A 9:   @include tablets{\A 10:     width: 100%;\A 11:   }\A 12: \A 13: }\A 14: "; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 10 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\menu__acco.scss, in `tablets'\A         from line 10 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\menu__acco.scss\A \A 5:   right: 0;\A 6:   display: flex;\A 7:   width: 70%;\A 8:   justify-content: flex-end;\A 9: \A 10:   @include tablets{\A 11:     width: 100%;\A 12:   }\A 13: \A 14: }\A 15: "; }

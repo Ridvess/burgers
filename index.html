@@ -10,6 +10,9 @@
     <script src="JavaScript/accoMenuTeam.js" defer></script>
     <script src="JavaScript/modalWindow.js" defer></script>
     <script src="JavaScript/burgersSlider.js" defer></script>
+    <script src="JavaScript/accoMenuBurgers.js" defer></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=98cc4da1-9add-42ed-b5b1-bc703683bee0&lang=ru_RU" type="text/javascript"></script>
+    <script src="JavaScript/yandexMapScript.js" defer></script>
 
 </head>
 <body>
@@ -534,14 +537,14 @@
     <section class="section menu" id="menu">
             <h2 class="section-title section-title--color-white section-title__menu">меню</h2>
                     <ul class="menu-acco">
-                        <li class="menu-acco__item active">
+                        <li class="menu-acco__item">
                             <a href="#" class="menu-acco__trigger menu-acco__bg menu-acco__bg-meat"
                                style="background-image: 
                                url(' ./img/content/acco__meat.JPG')">
                                 <h4 class="section-title menu-acco__trigger-title section-title--color-white ">для мясоедов</h4>
                             </a>
 
-                            <div class="menu-acco__content active">
+                            <div class="menu-acco__content">
                                 <div class="menu-acco__text">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                         Autem consectetur consequuntur cum delectus doloremque eos facilis fugit harum magnam minus modi non,
@@ -558,6 +561,9 @@
                             </a>
                             <div class="menu-acco__content">
                                 <div class="menu-acco__text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Autem consectetur consequuntur cum delectus doloremque eos facilis fugit harum magnam minus modi non,
+                                        obcaecati officia pariatur quae reiciendis suscipit ullam, voluptatibus!</p>
                                 </div>
                             </div>
                         </li>
@@ -570,6 +576,9 @@
                             </a>
                             <div class="menu-acco__content">
                                 <div class="menu-acco__text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Autem consectetur consequuntur cum delectus doloremque eos facilis fugit harum magnam minus modi non,
+                                        obcaecati officia pariatur quae reiciendis suscipit ullam, voluptatibus!</p>
                                 </div>
                             </div>
                         </li>
@@ -780,7 +789,9 @@
 
 <!--  map section  -->
     <section class="section map" id="map">
-        <div class="map__container">
+        <div class="map__container" id="mapContainer">
+
+        </div>
         <footer class="map__footer">
             <div class="footer__content">
                 <div class="footer__content__left">
@@ -823,7 +834,6 @@
                 </div>
             </div>
         </footer>
-        </div>
     </section>
 
 </div>

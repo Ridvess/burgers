@@ -1,18 +1,16 @@
 
-let item = $("#accoTeamItem");
 let accoItem = $(document.getElementsByClassName('accordeon__item'));
-let teamLink = $(".accordeon__item__link");
-let accoLink = $(document.getElementsByClassName('accordeon__item__link'));
-let teamClasses = ["accordeon__item-active"];
-let teamElements = [item];
 
 
-$(teamLink).on("click", function (e) {
+$(accoItem).on("click", function (e) {
     e.preventDefault();
-    _toggleClass(teamElements, teamClasses);
+
+    if(!$(this).hasClass('accordeon__item-active')){
+        $('ul.accordeon__list li ').removeClass('accordeon__item-active');
+    $(this).addClass('accordeon__item-active');
+    $(this).next('accordeon__item__desc'); } else {
+        $(this).removeClass('accordeon__item-active');
+    }
 });
 
-for (let i = 0; i < accoLink.length; i++){
-    accoItem[i].addEventListener('click', toggleItem, false);
 
-}

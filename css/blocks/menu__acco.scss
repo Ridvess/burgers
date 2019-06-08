@@ -5,6 +5,7 @@
   right: 0;
   display: flex;
   width: 70%;
+  justify-content: flex-end;
 
   @include tablets{
     width: 100%;
@@ -49,6 +50,9 @@
   width: 100%;
   .menu-acco__trigger-title{
     color: #f9b43b;
+  }
+  .menu-acco__content{
+    width: 100%;
   }
 }
 
