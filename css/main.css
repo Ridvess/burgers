@@ -1,39 +1,5 @@
 @import url(normalize.css);
-@font-face {
-  font-family: 'Gagalin';
-  src: url("../fonts/gagalin-regular-webfont.woff") format("woff");
-  src: url("../fonts/gagalin-regular-webfont.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'Ubuntu';
-  src: url("../fonts/ubuntu-b-webfont.woff") format("woff");
-  src: url("../fonts/ubuntu-b-webfont.woff2") format("woff2");
-  font-weight: bold;
-  font-style: normal; }
-@font-face {
-  font-family: 'Ubuntu';
-  src: url("../fonts/ubuntu-light-webfont.woff") format("woff");
-  src: url("../fonts/ubuntu-light-webfont.woff2") format("woff2");
-  font-weight: 300;
-  font-style: normal; }
-@font-face {
-  font-family: 'Ubuntu';
-  src: url("../fonts/ubuntu-medium-webfont.woff") format("woff");
-  src: url("../fonts/ubuntu-medium-webfont.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal; }
-@font-face {
-  font-family: 'Ubuntu';
-  src: url("../fonts/ubuntu-regular-webfont.woff") format("woff");
-  src: url("../fonts/ubuntu-regular-webfont.woff2") format("woff2");
-  font-style: normal; }
-@font-face {
-  font-family: 'Lifehack';
-  src: url("../fonts/lifehack_medium-webfont.woff") format("woff");
-  src: url("../fonts/lifehack_medium-webfont.woff2") format("woff2");
-  font-weight: normal;
-  font-style: italic; }
+@import url(fonts.css);
 .button {
   color: #fff;
   text-decoration: none;
@@ -434,6 +400,10 @@
 .menu-acco__item {
   position: relative;
   display: flex; }
+  @media screen and (max-width: 480px) {
+    .menu-acco__item .active {
+      position: absolute;
+      z-index: 10; } }
 
 .menu-acco__trigger {
   width: 80px;
@@ -452,9 +422,33 @@
   font-size: 48px; }
 
 .menu-acco__content {
+  position: relative;
   overflow: hidden;
   width: 0;
   background: rgba(0, 0, 0, 0.6); }
+
+.menu-acco__content__close {
+  height: 20px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; }
+  .menu-acco__content__close .acco__close-cross {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 12px;
+    height: 3px;
+    background: #FFFFFF;
+    transform: rotate(45deg); }
+    .menu-acco__content__close .acco__close-cross:before {
+      content: '';
+      display: flex;
+      width: 12px;
+      height: 3px;
+      background: #FFFFFF;
+      transform: rotate(-90deg); }
 
 .active {
   overflow: hidden;
@@ -617,6 +611,7 @@ input[type="checkbox"]:checked + .checkbox__custom:before {
   vertical-align: middle;
   margin-left: 5px;
   position: fixed;
+  top: 2.375rem;
   right: 1.25rem;
   height: 1.375rem;
   width: 1.375rem;
@@ -625,7 +620,8 @@ input[type="checkbox"]:checked + .checkbox__custom:before {
   z-index: 1000; }
   @media screen and (max-width: 768px) {
     .burgers-menu-link {
-      display: flex; } }
+      display: flex;
+      top: 38px; } }
 
 .burgers-menu-link__bar {
   background-color: #fff;

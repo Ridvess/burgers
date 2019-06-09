@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 11 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\burgers-menu-link.scss, in `tablets'
-        from line 11 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\burgers-menu-link.scss
+        on line 12 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\burgers-menu-link.scss, in `tablets'
+        from line 12 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\burgers-menu-link.scss
 
-6:   height: rem(22px);
-7:   width: rem(22px);
-8:   align-items: center;
-9:   display: none;
-10:   z-index: 1000;
-11:   @include tablets{
-12:     display: flex;
-13:   }
-14: }
+7:   height: rem(22px);
+8:   width: rem(22px);
+9:   align-items: center;
+10:   display: none;
+11:   z-index: 1000;
+12:   @include tablets{
+13:     display: flex;
+14:     top: 38px;
 15: 
-16: .burgers-menu-link__bar{
+16:   }
+17: }
 
 Backtrace:
-C:\Users\Roman\WebstormProjects\Burgers\css\blocks\burgers-menu-link.scss:11:in `tablets'
-C:\Users\Roman\WebstormProjects\Burgers\css\blocks\burgers-menu-link.scss:11
+C:\Users\Roman\WebstormProjects\Burgers\css\blocks\burgers-menu-link.scss:12:in `tablets'
+C:\Users\Roman\WebstormProjects\Burgers\css\blocks\burgers-menu-link.scss:12
 F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -66,4 +66,4 @@ F:/koalaPrepro/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 11 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\burgers-menu-link.scss, in `tablets'\A         from line 11 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\burgers-menu-link.scss\A \A 6:   height: rem(22px);\A 7:   width: rem(22px);\A 8:   align-items: center;\A 9:   display: none;\A 10:   z-index: 1000;\A 11:   @include tablets{\A 12:     display: flex;\A 13:   }\A 14: }\A 15: \A 16: .burgers-menu-link__bar{"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 12 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\burgers-menu-link.scss, in `tablets'\A         from line 12 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\burgers-menu-link.scss\A \A 7:   height: rem(22px);\A 8:   width: rem(22px);\A 9:   align-items: center;\A 10:   display: none;\A 11:   z-index: 1000;\A 12:   @include tablets{\A 13:     display: flex;\A 14:     top: 38px;\A 15: \A 16:   }\A 17: }"; }

@@ -16,6 +16,13 @@
 .menu-acco__item{
   position: relative;
   display: flex;
+
+  .active{
+  @include phones{
+    position: absolute;
+    z-index: 10;
+    }
+  }
 }
 
 .menu-acco__trigger{
@@ -40,11 +47,36 @@
 }
 
 .menu-acco__content{
+  position: relative;
   overflow: hidden;
   width: 0;
   background: rgba(0, 0, 0, 0.6);
 }
-
+.menu-acco__content__close{
+  height: 20px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  .acco__close-cross{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 12px;
+    height: 3px;
+    background: #FFFFFF;
+    transform: rotate(45deg);
+    &:before{
+      content: '';
+      display: flex;
+      width: 12px;
+      height: 3px;
+      background: #FFFFFF;
+      transform: rotate(-90deg);
+  }
+  }
+}
 .active{
   overflow: hidden;
   width: 100%;

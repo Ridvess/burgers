@@ -1,7 +1,7 @@
 //jQuery code
 
 let body = $("body");
-let overlay  = $("#hamburgerOverlay");
+let overlay = $("#hamburgerOverlay");
 let menu = $("#hamburgerMenu");
 let link = $(".ham-menu__link");
 let classes = ["open", "active", "hidden"];
@@ -13,6 +13,7 @@ var _toggleClass = (element, className) => {
 
 $(menu).on("click", e => {
     e.preventDefault();
+    console.log("click");
 // cross animation
     _toggleClass(elements, classes);
 });
@@ -23,8 +24,8 @@ $(link).on("click", function (e) {
     console.log($(this).attr("href"));
 
     if ($(scroll_el).length > 0) {
-        $("html").animate({scrollTop: $(scroll_el).offset().top}, 600, () =>{
-            _toggleClass(elements,classes);
+        $("html").animate({scrollTop: $(scroll_el).offset().top}, 600, () => {
+            _toggleClass(elements, classes);
         });
     }
 });
