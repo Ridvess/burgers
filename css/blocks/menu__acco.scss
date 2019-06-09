@@ -17,12 +17,6 @@
   position: relative;
   display: flex;
 
-  .active{
-  @include phones{
-    position: absolute;
-    z-index: 10;
-    }
-  }
 }
 
 .menu-acco__trigger{
