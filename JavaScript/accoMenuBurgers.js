@@ -8,20 +8,21 @@ $(accoItem1).on("click", function (e) {
 
     if(!$(this).hasClass('accordeon__item-active')){
         $('ul.menu-acco li ').removeClass('active');
-        this.style.position = "absolute";
-        this.style.zIndex = "10";
+        // this.style.position = "absolute";
+        // this.style.zIndex = "10";
         $(this).addClass('active');} else {
         $(this).removeClass('active');
-        this.style.position = "relative";
-        this.style.zIndex = "0";
+        // this.style.position = "relative";
+        // this.style.zIndex = "0";
     }
 });
 
-$(accoClose).on("click", e=>{
 
-    $('ul.menu-acco li ').removeClass('active');
-
-    console.log("click")
-});
+// $(accoClose).on("click", e=>{
+//
+//     $('ul.menu-acco li ').removeClass('active');
+//
+//     console.log("click")
+// });
 
 
