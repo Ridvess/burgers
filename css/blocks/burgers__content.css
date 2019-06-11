@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'phones'.
-        on line 28 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\burgers__content.scss, in `phones'
-        from line 28 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\burgers__content.scss
+        on line 29 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\burgers__content.scss, in `phones'
+        from line 29 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\burgers__content.scss
 
-23: .ingredients__text{
-24:   color: #fff;
-25:   position: absolute;
-26:   bottom: rem(12px);
-27:   left: rem(22px);
-28:   @include phones{
-29:     bottom: rem(8px);
-30:     left: rem(20px);
-31:   }
-32: }
-33: 
+24: .ingredients__text{
+25:   color: #fff;
+26:   position: absolute;
+27:   bottom: rem(12px);
+28:   left: rem(22px);
+29:   @include phones{
+30:     bottom: rem(8px);
+31:     left: rem(20px);
+32:   }
+33: }
+34: 
 
 Backtrace:
-C:\Users\Roman\WebstormProjects\Burgers\css\blocks\burgers__content.scss:28:in `phones'
-C:\Users\Roman\WebstormProjects\Burgers\css\blocks\burgers__content.scss:28
+C:\Users\Roman\WebstormProjects\Burgers\css\blocks\burgers__content.scss:29:in `phones'
+C:\Users\Roman\WebstormProjects\Burgers\css\blocks\burgers__content.scss:29
 F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 F:/koalaPrepro/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -66,4 +66,4 @@ F:/koalaPrepro/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'phones'.\A         on line 28 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\burgers__content.scss, in `phones'\A         from line 28 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\burgers__content.scss\A \A 23: .ingredients__text{\A 24:   color: #fff;\A 25:   position: absolute;\A 26:   bottom: rem(12px);\A 27:   left: rem(22px);\A 28:   @include phones{\A 29:     bottom: rem(8px);\A 30:     left: rem(20px);\A 31:   }\A 32: }\A 33: "; }
+  content: "Error: Undefined mixin 'phones'.\A         on line 29 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\burgers__content.scss, in `phones'\A         from line 29 of C:\Users\Roman\WebstormProjects\Burgers\css\blocks\burgers__content.scss\A \A 24: .ingredients__text{\A 25:   color: #fff;\A 26:   position: absolute;\A 27:   bottom: rem(12px);\A 28:   left: rem(22px);\A 29:   @include phones{\A 30:     bottom: rem(8px);\A 31:     left: rem(20px);\A 32:   }\A 33: }\A 34: "; }

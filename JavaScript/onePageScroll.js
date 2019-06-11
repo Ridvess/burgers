@@ -49,14 +49,20 @@ const scrollToSection = direction => {
     const nextSection = activeSection.next();
     const prevSection = activeSection.prev();
 
-    if (direction === "next" && nextSection.length){
-        performTransition(nextSection.index());
+    if ($(body2).hasClass("hidden")) {
+
+    } else {
+        if (direction === "next" && nextSection.length){
+            performTransition(nextSection.index());
+        }
+
+        if (direction === "prev" && prevSection.length){
+            performTransition(prevSection.index());
+
+        }
     }
 
-    if (direction === "prev" && prevSection.length){
-        performTransition(prevSection.index());
-        console.log(nextSection.index())
-    }
+
 };
 
 

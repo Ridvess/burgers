@@ -35,6 +35,8 @@ const overlay1 = createOverlay(template);
                 closeElement.click();
             },
             setContent(customText, customTitle){
+                console.log(customTitle);
+                console.log(customText);
                 if(customTitle){
                     title.innerHtml = customTitle;
                 }
@@ -53,6 +55,7 @@ const overlay1 = createOverlay(template);
         const name = $(item)
             .find(".review__title ")
             .text();
+        console.log(name);
         const text = $(item)
             .find(".review__text p")
             .text();

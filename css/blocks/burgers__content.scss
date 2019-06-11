@@ -16,7 +16,8 @@
     cursor: pointer;
     background:  #e35028;
     .ingredients__menu{
-      left: 82px;
+      display: flex;
+      left: 100%;
     }
   }
 }

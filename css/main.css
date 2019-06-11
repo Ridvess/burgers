@@ -72,7 +72,8 @@
 .menu__list {
   display: flex;
   align-items: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: center; }
 
 .menu__item {
   display: flex;
@@ -97,7 +98,8 @@
   text-transform: uppercase;
   font-family: Ubuntu, sans-serif;
   font-weight: 500;
-  font-size: 0.8125rem; }
+  font-size: 0.8125rem;
+  line-height: 30px; }
 
 .welcome__order-button {
   margin-left: 0.9375rem;
@@ -360,7 +362,8 @@
   color: #E45028;
   font-family: Ubuntu, sans-serif;
   font-weight: bold;
-  font-size: 0.875rem; }
+  font-size: 0.875rem;
+  text-decoration: none; }
 
 .phone-icon {
   margin-top: 0.1875rem;
@@ -673,7 +676,8 @@ input[type="checkbox"]:checked + .checkbox__custom:before {
     cursor: pointer;
     background: #e35028; }
     .content__ingredients:hover .ingredients__menu {
-      left: 82px; }
+      display: flex;
+      left: 100%; }
 
 .ingredients__text {
   color: #fff;
@@ -779,7 +783,7 @@ input[type="checkbox"]:checked + .checkbox__custom:before {
   position: fixed;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.9);
   width: 100%;
   z-index: 999;
   overflow: hidden;
@@ -871,10 +875,10 @@ input[type="checkbox"]:checked + .checkbox__custom:before {
 .ingredients__menu {
   background: rgba(250, 250, 250, 0.8);
   width: 16.875rem;
-  display: flex;
+  display: none;
   flex-direction: column;
   position: absolute;
-  left: 624.9375rem;
+  left: 100%;
   border-radius: 5px; }
 
 .ingredients__menu__item {
@@ -908,7 +912,7 @@ input[type="checkbox"]:checked + .checkbox__custom:before {
   position: fixed;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.9);
   width: 100%;
   z-index: 9999;
   overflow: hidden;
