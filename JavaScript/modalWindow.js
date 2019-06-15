@@ -35,10 +35,8 @@ const overlay1 = createOverlay(template);
                 closeElement.click();
             },
             setContent(customText, customTitle){
-                console.log(customTitle);
-                console.log(customText);
                 if(customTitle){
-                    title.innerHtml = customTitle;
+                    title.innerHTML = customTitle;
                 }
                 text.innerHTML = customText;
             }
@@ -55,7 +53,6 @@ const overlay1 = createOverlay(template);
         const name = $(item)
             .find(".review__title ")
             .text();
-        console.log(name);
         const text = $(item)
             .find(".review__text p")
             .text();
@@ -72,12 +69,13 @@ const overlay1 = createOverlay(template);
     function submitForm(e) {
         e.preventDefault();
         const form = e.target;
+        console.log(form);
         const request = ajaxForm(form);
 
         request.addEventListener("load", function () {
             if(request.status >= 400) {
                 overlay1.open();
-                overlay1.setContent('Произошла ошибка' + $(request.response.message));
+                overlay1.setContent("Произошла ошибка: " + request.response.message);
             } else {
                 overlay1.open();
                 overlay1.setContent(request.response.message);
@@ -87,7 +85,7 @@ const overlay1 = createOverlay(template);
 
     const ajaxForm = function (form) {
         const formData = new FormData(form);
-        const url= " https://webdev-api.loftschool.com/sendmail";
+        const url= "https://webdev-api.loftschool.com/sendmail";
         const mail = "shylemming@gmail.com";
         formData.append("to", mail);
 

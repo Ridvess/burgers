@@ -953,7 +953,14 @@ input[type="checkbox"]:checked + .checkbox__custom:before {
 
 .video__container {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%; }
+
+.video__player {
+  width: 70%;
+  height: auto; }
 
 .one-page-scroll {
   height: 100%;
