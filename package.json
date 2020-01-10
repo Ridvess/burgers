@@ -4,6 +4,7 @@
   "description": "",
   "main": "gulpfile.js",
   "dependencies": {
+    "browser-sync": "^2.26.7",
     "jquery": "^3.4.1",
     "jquery-touchswipe": "^1.6.19",
     "minimatch": "^3.0.4",

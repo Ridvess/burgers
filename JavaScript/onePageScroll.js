@@ -111,18 +111,14 @@ $("[data-scroll-to]").on("click", e=>{
     e.preventDefault();
     const target = $(e.currentTarget).attr('data-scroll-to');
     performTransition(target);
-
-
 });
 
-if(isMobile){
-    $(window).swipe({
-        swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
-            const nextOrPrev = direction === "up" ? "next" : "prev";
+window.addEventListener("load",function() {
+    setTimeout(function(){
+        // This hides the address bar:
+        window.scrollTo(0, 1);
+    }, 0);
+});
 
-            scrollToSection(nextOrPrev);
-        }
-    });
- }
 
 
