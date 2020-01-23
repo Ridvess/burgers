@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,sBAAsB;EACpB,KAAK,EAAE,KAAK;EACZ,YAAY,EAAE,IAAI;;AAGpB,+BAA+B;EAC7B,WAAW,EAAE,wBAAwB;EACrC,SAAS,EAAE,IAAI",
+"mappings": "AAAA,sBAAsB;EACpB,KAAK,EAAE,UAAU;EACjB,YAAY,EAAE,SAAS;;AAGzB,+BAA+B;EAC7B,WAAW,EAAE,kBAAkB;EAC/B,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,SAAS",
 "sources": ["accordeon__desc__text.scss"],
 "names": [],
 "file": "accordeon__desc__text.css"

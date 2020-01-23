@@ -12,18 +12,7 @@
         border: 3px solid transparent;
         border-bottom: 5px solid yellow;
       }
-
-
-
-      @include phones{
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-      }
     }
-
     .accordeon__item__desc{
       &-vertical{
         width: rem(180px);

@@ -22,6 +22,8 @@
 .menu__list{
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .menu__item {
@@ -54,8 +56,13 @@
   font-family: Ubuntu, sans-serif;
   font-weight: 500;
   font-size: rem(13px);
+  line-height: 30px;
 }
 .welcome__order-button{
   margin-left: rem(15px);
   text-transform: uppercase;
+  @include tablets{
+    display: block;
+    margin-right: 35%;
+  }
 }

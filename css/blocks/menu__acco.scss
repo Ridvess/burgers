@@ -5,6 +5,7 @@
   right: 0;
   display: flex;
   width: 70%;
+  justify-content: flex-end;
 
   @include tablets{
     width: 100%;
@@ -15,6 +16,7 @@
 .menu-acco__item{
   position: relative;
   display: flex;
+
 }
 
 .menu-acco__trigger{
@@ -39,16 +41,44 @@
 }
 
 .menu-acco__content{
+  position: relative;
   overflow: hidden;
   width: 0;
   background: rgba(0, 0, 0, 0.6);
 }
-
+.menu-acco__content__close{
+  height: 20px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  .acco__close-cross{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 12px;
+    height: 3px;
+    background: #FFFFFF;
+    transform: rotate(45deg);
+    &:before{
+      content: '';
+      display: flex;
+      width: 12px;
+      height: 3px;
+      background: #FFFFFF;
+      transform: rotate(-90deg);
+  }
+  }
+}
 .active{
   overflow: hidden;
   width: 100%;
   .menu-acco__trigger-title{
     color: #f9b43b;
+  }
+  .menu-acco__content{
+    width: 100%;
   }
 }
 

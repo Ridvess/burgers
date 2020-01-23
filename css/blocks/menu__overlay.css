@@ -1,0 +1,49 @@
+.hamburger__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  z-index: 999;
+  overflow: hidden;
+  height: 0; }
+
+.active {
+  height: 100%; }
+
+.ham-menu__list {
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.ham-menu__link {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+  font-size: rem(24px);
+  line-height: 1.45; }
+
+.ham-menu__item {
+  display: inline-block;
+  align-items: center;
+  margin-right: rem(15px);
+  margin-top: 10px; }
+  .ham-menu__item:after {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 4px;
+    background: #fff;
+    border-radius: 50%;
+    margin-left: 50%;
+    margin-top: 10px;
+    transform: translateX(-50%); }
+  .ham-menu__item:last-child {
+    margin-right: 0; }
+    .ham-menu__item:last-child:after {
+      display: none; }
+
+/*# sourceMappingURL=menu__overlay.css.map */

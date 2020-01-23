@@ -50,5 +50,8 @@
   font-weight: normal;
   font-size: rem(65px);
   color: #fff;
+  @include phones{
+    font-size: rem(45px);
+  }
 }
 
