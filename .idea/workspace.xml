@@ -40,12 +40,12 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="HW_2" />
+        <entry key="$PROJECT_DIR$" value="fix1" />
       </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -194,7 +194,7 @@
       <workItem from="1578094648136" duration="4056000" />
       <workItem from="1578658809942" duration="5714000" />
       <workItem from="1579382103850" duration="89000" />
-      <workItem from="1579797617792" duration="2835000" />
+      <workItem from="1579797617792" duration="3296000" />
     </task>
     <servers />
   </component>
