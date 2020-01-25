@@ -2,9 +2,269 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b3ff608-4967-4450-b3a3-d3a5413c683d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM_API_HW.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/DOM_API_HW.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/accoMenuBurgers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaScript/accoMenuBurgers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/accoMenuTeam.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaScript/accoMenuTeam.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/burgersMenuOverlay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaScript/burgersMenuOverlay.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/burgersSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaScript/burgersSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/homeWorkJava.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaScript/homeWorkJava.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/homeWorkJava2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaScript/homeWorkJava2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/modalWindow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaScript/modalWindow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/onePageScroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaScript/onePageScroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/yandexMapScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaScript/yandexMapScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/accordeon__desc__text.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/accordeon__desc__text.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/accordeon__desc__text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/blocks/accordeon__desc__text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/accordeon__item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/accordeon__item.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/accordeon__item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/blocks/accordeon__item.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/accordeon__item__desc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/accordeon__item__desc.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/accordeon__item__desc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/blocks/accordeon__item__desc.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/burgers-menu-link.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/burgers-menu-link.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/blocks/burgers-menu-link.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/burgers__content.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/burgers__content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/blocks/burgers__content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/button.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/blocks/button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/down-arrow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/down-arrow.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/down-arrow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/blocks/down-arrow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/feature.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/feature.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/feature.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/blocks/feature.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/header.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/blocks/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/ingredients__menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/ingredients__menu.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/ingredients__menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/blocks/ingredients__menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/map__footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/map__footer.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/map__footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/blocks/map__footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/menu__acco.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/menu__acco.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/menu__acco.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/blocks/menu__acco.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/menu__overlay.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/menu__overlay.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/menu__overlay.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/blocks/menu__overlay.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/one-page-scroll.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/blocks/one-page-scroll.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/order__form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/order__form.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/order__form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/blocks/order__form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/overlay.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/overlay.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/overlay.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/blocks/overlay.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/review.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/review.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/review.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/blocks/review.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/section-title.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/section-title.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/section-title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/blocks/section-title.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/section__nav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/section__nav.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/section__nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/blocks/section__nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/blocks/slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/svg__icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/svg__icons.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/svg__icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/blocks/svg__icons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/team__menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/team__menu.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/team__menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/blocks/team__menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/video__player.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/video__player.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/video__player.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/blocks/video__player.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/layouts/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/layouts/layout.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/layouts/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/layouts/layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/normalize.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/normalize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/normalize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/best.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/best.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/best.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/sections/best.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/burgers.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/burgers.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/burgers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/sections/burgers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/map.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/map.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/sections/map.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/menu.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/sections/menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/order.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/order.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/order.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/sections/order.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/reviews.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/reviews.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/sections/reviews.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/team.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/team.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/team.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/sections/team.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/welcome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/welcome.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/welcome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/sections/welcome.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/work.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/work.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sections/work.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/sections/work.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/gagalin-regular-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/gagalin-regular-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/gagalin-regular-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/gagalin-regular-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/lifehack_medium-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/lifehack_medium-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/lifehack_medium-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/lifehack_medium-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/ubuntu-b-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/ubuntu-b-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/ubuntu-b-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/ubuntu-b-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/ubuntu-light-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/ubuntu-light-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/ubuntu-light-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/ubuntu-light-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/ubuntu-medium-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/ubuntu-medium-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/ubuntu-medium-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/ubuntu-medium-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/ubuntu-regular-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/ubuntu-regular-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/ubuntu-regular-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/ubuntu-regular-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/backgrounds/contacts_bg-min.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/backgrounds/contacts_bg-min.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/backgrounds/contacts_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/backgrounds/contacts_bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/backgrounds/first_page_bg-min.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/backgrounds/first_page_bg-min.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/backgrounds/first_page_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/backgrounds/first_page_bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/backgrounds/menu_bg-min.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/backgrounds/menu_bg-min.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/backgrounds/menu_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/backgrounds/menu_bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/backgrounds/order_bg.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/backgrounds/order_bg.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/backgrounds/second_pg_bg-min.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/backgrounds/second_pg_bg-min.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/backgrounds/second_pg_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/backgrounds/second_pg_bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/backgrounds/team_bg-min.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/backgrounds/team_bg-min.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/backgrounds/team_bg.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/backgrounds/team_bg.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/backgrounds/transparent.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/backgrounds/transparent.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/backgrounds/video__bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/backgrounds/video__bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/backgrounds/work_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/backgrounds/work_bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/content/123456789 copy.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/content/123456789 copy.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/content/acco__diet.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/content/acco__diet.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/content/acco__meat.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/content/acco__meat.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/content/acco_vegan.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/content/acco_vegan.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/content/burgers/burger_example.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/content/burgers/burger_example.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/content/photo-1468071174046-657d9d351a40.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/content/photo-1468071174046-657d9d351a40.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/content/review_avatars/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/content/review_avatars/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/content/review_avatars/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/content/review_avatars/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/content/review_avatars/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/content/review_avatars/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/content/review_avatars/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/content/review_avatars/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/content/review_avatars/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/content/review_avatars/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/content/review_avatars/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/content/review_avatars/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/content/review_avatars/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/content/review_avatars/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/content/review_avatars/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/content/review_avatars/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/content/team_avatar-min.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/content/team_avatar-min.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/content/team_avatar.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/content/team_avatar.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/arrow-scroll.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/arrow-scroll.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/beef.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/beef.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/buns.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/buns.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/burger.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/burger.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/cheese.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/cheese.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/close-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/close-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/cucumber.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/cucumber.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/drops.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/drops.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/fb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/fb.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/hand.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/hand.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/inst.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/inst.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/kkal.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/kkal.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/map-marker.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/map-marker.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/meat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/meat.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/natural.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/natural.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/phone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/phone.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/play.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/play.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/salad.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/salad.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/sauce.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/sauce.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/sprite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/twitter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/twitter.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/vk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/vk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/volume.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/volume.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slider/Chiken burger.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider/Chiken burger.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slider/NYC-Diner-Bacon-Cheeseburger.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider/NYC-Diner-Bacon-Cheeseburger.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slider/Spicy_Shrimp_Burger.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider/Spicy_Shrimp_Burger.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slider/burger_sandwich_PNG4124.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider/burger_sandwich_PNG4124.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/README.es.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/README.es.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/lib/content/path.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/lib/content/path.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/lib/content/read.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/lib/content/read.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/lib/content/write.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/lib/content/write.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/lib/entry-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/lib/entry-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/lib/util/fix-owner.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/lib/util/fix-owner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/lib/util/tmp.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/lib/util/tmp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/lib/verify.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/lib/verify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/locales/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/locales/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cacache/put.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cacache/put.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chownr/chownr.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chownr/chownr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chownr/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chownr/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/commander/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/commander/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/commander/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/commander/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/commander/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/commander/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cyclist/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cyclist/.npmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cyclist/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cyclist/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cyclist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cyclist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cyclist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cyclist/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mixin-deep/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mixin-deep/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mixin-deep/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mixin-deep/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-limit/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/p-limit/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-limit/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/p-limit/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-limit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/p-limit/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/p-limit/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/p-limit/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/parallel-transform/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/parallel-transform/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/parallel-transform/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/serialize-javascript/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/serialize-javascript/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/serialize-javascript/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/serialize-javascript/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/serialize-javascript/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/serialize-javascript/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/set-value/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/set-value/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/set-value/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/set-value/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/browser-source-map-support.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map-support/browser-source-map-support.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map-support/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/source-map-support.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map-support/source-map-support.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/dist/minify.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/dist/minify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/PATRONS.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/PATRONS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/bin/uglifyjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/bin/uglifyjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/bin/uglifyjsnobundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/dist/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/dist/bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/dist/bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/dist/bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/dist/bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/dist/bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/tools/domprops.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/tools/domprops.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/tools/props.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/tools/props.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/tools/terser.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/tools/terser.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/union-value/node_modules/extend-shallow/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/union-value/node_modules/extend-shallow/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/union-value/node_modules/extend-shallow/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/union-value/node_modules/extend-shallow/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/union-value/node_modules/set-value/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/union-value/node_modules/set-value/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/union-value/node_modules/set-value/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/union-value/node_modules/set-value/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/union-value/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/union-value/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/unique-slug/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/unique-slug/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/unique-slug/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/unique-slug/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/unique-slug/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/unique-slug/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/unique-slug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/unique-slug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yallist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yallist/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yallist/yallist.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yallist/yallist.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +317,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -86,39 +352,27 @@
       <recent name="C:\Users\Roman\WebstormProjects\Burgers\img\icons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Roman\WebstormProjects\Burgers" />
       <recent name="C:\Users\Roman\WebstormProjects\Burgers\src" />
-      <recent name="C:\Users\Roman\WebstormProjects\Burgers\JavaScript" />
-      <recent name="C:\Users\Roman\WebstormProjects\Burgers\img\content\burgers" />
-      <recent name="C:\Users\Roman\WebstormProjects\Burgers\css" />
+      <recent name="C:\Users\Roman\WebstormProjects\Burgers\src\" />
+      <recent name="C:\Users\Roman\WebstormProjects\Burgers\src\JavaScript" />
+      <recent name="C:\Users\Roman\WebstormProjects\Burgers\src\css" />
+      <recent name="C:\Users\Roman\WebstormProjects\Burgers" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Node.js.homeWorkJava2.js">
     <configuration default="true" type="NodeJSConfigurationType" path-to-node="E:/nodeJS/npm">
       <method v="2" />
     </configuration>
-    <configuration name="accoMenuTeam.js" type="NodeJSConfigurationType" temporary="true" path-to-node="node" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JavaScript/accoMenuTeam.js" working-dir="$PROJECT_DIR$/JavaScript">
+    <configuration name="accoMenuTeam.js" type="NodeJSConfigurationType" temporary="true" path-to-node="node" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/JavaScript/accoMenuTeam.js" working-dir="$PROJECT_DIR$/JavaScript">
       <method v="2" />
     </configuration>
-    <configuration name="homeWorkJava2.js" type="NodeJSConfigurationType" temporary="true" path-to-node="node" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JavaScript/homeWorkJava2.js" working-dir="$PROJECT_DIR$/JavaScript">
+    <configuration name="homeWorkJava2.js" type="NodeJSConfigurationType" temporary="true" path-to-node="node" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/JavaScript/homeWorkJava2.js" working-dir="$PROJECT_DIR$/JavaScript">
       <method v="2" />
     </configuration>
-    <configuration name="homeWorkJava.js" type="NodeJSConfigurationType" path-to-node="node" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JavaScript/homeWorkJava.js" working-dir="$PROJECT_DIR$">
+    <configuration name="homeWorkJava.js" type="NodeJSConfigurationType" path-to-node="node" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/JavaScript/homeWorkJava.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="modalWindow.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JavaScript/modalWindow.js" working-dir="$PROJECT_DIR$/JavaScript">
+    <configuration name="modalWindow.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/JavaScript/modalWindow.js" working-dir="$PROJECT_DIR$/JavaScript">
       <method v="2" />
     </configuration>
     <list>
@@ -195,6 +449,7 @@
       <workItem from="1578658809942" duration="5714000" />
       <workItem from="1579382103850" duration="89000" />
       <workItem from="1579797617792" duration="3296000" />
+      <workItem from="1579971668905" duration="424000" />
     </task>
     <servers />
   </component>
@@ -231,16 +486,26 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="2610" y="218" key="FileChooserDialogImpl" timestamp="1579971988299">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2610" y="218" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579971988299" />
+    <state x="2497" y="73" key="RollbackChangesDialog" timestamp="1579971545855">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2497" y="73" key="RollbackChangesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579971545855" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/JavaScript/homeWorkJava2.js</url>
+          <url>file://$PROJECT_DIR$/src/JavaScript/homeWorkJava2.js</url>
           <line>16</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/JavaScript/homeWorkJava2.js</url>
+          <url>file://$PROJECT_DIR$/src/JavaScript/homeWorkJava2.js</url>
           <line>3</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>

@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,gBAAgB;EACd,KAAK,EAAE,IAAI",
-"sources": ["order__form.scss"],
-"names": [],
-"file": "order__form.css"
-}
