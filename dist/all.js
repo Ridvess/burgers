@@ -1,6 +1,6 @@
 
 let accoItem1 = $(document.getElementsByClassName('menu-acco__item'));
-let accoClose = $(document.getElementsByClassName('acco__close-cross'));
+let accoClose = $(document.getElementsByClassName('menu-acco__content__close'));
 
 
 $(accoItem1).on("click", function (e) {
@@ -24,13 +24,13 @@ $(accoItem1).on("click", function (e) {
 //     // this.style.zIndex = "0";
 // }
 // });
-
-// $(accoClose).on("click", e=>{
-//
-//     $('ul.menu-acco li ').removeClass('active');
-//
-//     console.log("click")
-// });
+// $(accoClose).on("click", function (e) {
+  //   e.preventDefault();
+    // if($(accoItem1).hasClass('accordeon__item-active')){
+      //   $('ul.menu-acco li ').removeClass('active');
+    // }
+  // console.log("click")
+//});
 
 
 

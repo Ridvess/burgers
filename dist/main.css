@@ -749,7 +749,7 @@ template {
   display: flex; }
 
 .menu-acco__trigger {
-  width: 80px;
+  min-width: 80px;
   position: relative; }
 
 .menu-acco__bg {
@@ -771,7 +771,7 @@ template {
   background: rgba(0, 0, 0, 0.6); }
 
 .menu-acco__content__close {
-  height: 20px;
+  height: 30px;
   position: relative;
   width: 100%;
   display: flex;
@@ -796,6 +796,8 @@ template {
 .active {
   overflow: hidden;
   width: 100%; }
+  .active .menu-acco__trigger {
+    width: 80px; }
   .active .menu-acco__trigger-title {
     color: #f9b43b; }
   .active .menu-acco__content {
@@ -807,7 +809,7 @@ template {
   font-weight: 300;
   font-size: 0.875rem;
   padding-left: 6%;
-  padding-right: 6%;
+  padding-right: 8%;
   padding-top: 12%;
   line-height: 1.7; }
 
