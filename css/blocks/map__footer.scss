@@ -1,0 +1,113 @@
+
+.map__footer{
+  display: flex;
+  justify-content: center;
+  height: rem(60px);
+  width: 100%;
+  background: #000;
+  position: absolute;
+  bottom: 0;
+  @include phones{
+    height: rem(115px);
+  }
+
+}
+.footer__content{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 85%;
+  align-items: center;
+  color: #ffff;
+  @include phones{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+}
+
+.footer__content__left, .footer__content__right{
+  width: 50%;
+  height: 100%;
+
+  @include phones{
+    width: 100%;
+  }
+}
+
+.footer__content__left {
+  justify-content: flex-start;
+  color: #fff;
+  padding-top: rem(10px);
+}
+
+
+.footer__content__right{
+  display: flex;
+  justify-content: flex-end;
+
+  @include phones{
+    display: block;
+  }
+}
+
+.vk{
+  height: 100%;
+  width: auto;
+}
+
+.footer__content__address{
+  font-size: rem(14px);
+  font-family: Ubuntu, sans-serif;
+  font-weight: 300;
+  padding-bottom: rem(5px);
+}
+
+.footer__content__phone{
+  display: inline-flex;
+  color: #E45028;
+  font-family: Ubuntu, sans-serif;
+  font-weight: bold;
+  font-size: rem(14px);
+  text-decoration: none;
+}
+
+.phone-icon{
+  margin-top: rem(3px);
+  margin-right: rem(8px);
+}
+
+.content__right__icons{
+  padding-top: rem(18px);
+}
+
+.icon__link{
+  text-decoration: none;
+  margin-right: rem(20px);
+}
+
+.vk-icon{
+  &:hover{
+    fill: #fff;
+  }
+}
+
+.fb-icon{
+  &:hover{
+    fill: #fff;
+  }
+}
+
+.inst-icon{
+  &:hover{
+    fill: #fff;
+  }
+}
+
+.twitter-icon{
+  &:hover{
+    fill: #fff;
+  }
+}

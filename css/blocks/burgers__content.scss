@@ -1,0 +1,139 @@
+
+.content__left__img{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.content__ingredients{
+  position: absolute;
+  width: rem(88px);
+  height: rem(88px);
+  background: #f08c33;
+  border-radius: 4px;
+  top: rem(-82px);
+  left: rem(-25px);
+  &:hover{
+    cursor: pointer;
+    background:  #e35028;
+    .ingredients__menu{
+      display: flex;
+      left: 100%;
+    }
+  }
+}
+.ingredients__text{
+  color: #fff;
+  position: absolute;
+  bottom: rem(12px);
+  left: rem(22px);
+  @include phones{
+    bottom: rem(8px);
+    left: rem(20px);
+  }
+}
+
+.burgers__title, .kkal__number, .kkal__text {
+  font-family: Gagalin, sans-serif;
+  font-weight: normal;
+}
+
+
+.burger-icon{
+  color: #fff;
+  position: absolute;
+  left: rem(22px);
+  top: rem(14px);
+  @include phones{
+    left: rem(20px);
+  }
+}
+
+.kkal-icon{
+  fill: rgba(255, 255, 255, .7);
+}
+
+.kkal__icon{
+  position: absolute;
+  bottom: rem(-72px);
+  left: rem(-6px);
+  width: rem(60px);
+  height: rem(80px);
+  @include tablets{
+    top: rem(-69px);
+    right: rem(-36px);
+    bottom: unset;
+    left: unset;
+  }
+
+}
+
+.kkal__number{
+  position: absolute;
+  color: rgba(255, 255, 255, .7);
+  bottom: rem(32px);
+  left: rem(17px);
+  @include phones{
+    left: rem(22px);
+  }
+}
+
+.kkal__text{
+  position: absolute;
+  left: rem(16px);
+  bottom: -1px;
+  color: rgba(255, 255, 255, .7);
+  @include phones{
+    left: rem(19px);
+    bottom: rem(-4px);
+  }
+}
+
+.section-title__burgers{
+  margin-bottom: rem(50px);
+  line-height: 1.0;
+}
+
+.content__desc__text{
+  font-family: Ubuntu, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 34px;
+}
+
+.button-burgers-link{
+  color: #fff;
+  text-decoration: none;
+  font-family: Ubuntu, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  height: 34px;
+}
+
+
+
+.burger__content-left, .burger__content-right{
+  width: 40%;
+  @include tablets{
+    width: 60%;
+    text-align: center;
+  }
+}
+
+.content__desc__order{
+  display: flex;
+  justify-content: space-around;
+}
+.desc__order__title{
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-family: Gagalin, sans-serif;
+  font-weight: normal;
+  color: $orange;
+  white-space: nowrap;
+}
+
+.order__price{
+  font-size: 72px;
+}

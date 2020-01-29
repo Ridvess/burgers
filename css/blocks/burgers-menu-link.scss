@@ -1,0 +1,72 @@
+.burgers-menu-link{
+  vertical-align: middle;
+  margin-left: 5px;
+  position: fixed;
+  top: rem(38px);
+  right: rem(20px);
+  height: rem(22px);
+  width: rem(22px);
+  align-items: center;
+  display: none;
+  z-index: 1000;
+  @include tablets{
+    display: flex;
+    top: 38px;
+
+  }
+}
+
+.burgers-menu-link__bar{
+    background-color: #fff;
+    width: rem(22px);
+    height: rem(5px);
+    border-radius:rem(3px) ;
+    position: relative;
+
+  &:before{
+    background-color: #fff;
+    width: rem(22px);
+    height: rem(5px);
+    border-radius:rem(3px) ;
+    content: '';
+    display: block;
+    position: absolute;
+    top: -9px;
+  }
+  &:after {
+    background-color: #fff;
+    width: rem(22px);
+    height: rem(5px);
+    border-radius:rem(3px) ;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -9px;
+  }
+}
+
+.open{
+
+  .burgers-menu-link{
+    right: 20px;
+  }
+
+  .burgers-menu-link__bar {
+    width: 0;
+
+    &:before {
+      top: 0;
+      transform: rotate(45deg);
+      width: 25px;
+
+    }
+
+    &:after {
+      width: 25px;
+      top: 0;
+      transform: rotate(-45deg);
+    }
+  }
+}
+
+

@@ -2,14 +2,41 @@
 .button{
   color:#fff;
   text-decoration: none;
-  font-family: Ubuntu_Light, sans-serif;
-  font-size: 13px;
+  font-family: Ubuntu, sans-serif;
   font-weight: 500;
+  font-size: rem(13px);
   background-color: #e45028;
   border-radius: 5px;
-  padding: 10px 15px;
+  padding: rem(10px) rem(15px);
 
   &:hover{
-    background-color: #c1401e;
+    background-color:  $red;
+  }
+
+  &--bg-black{
+    background-color: #2f3234;
+    &:hover{
+      background-color: #1f2122;
+    }
+  }
+
+  &-order{
+    border: none;
+    width: rem(97px);
+    outline: none;
+  }
+  &-reset{
+    border: none;
+    color: #fff;
+    background-color: transparent;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 300;
+    margin-left: rem(10px);
+  }
+  &-burgers{
+    color: #fff;
+    text-decoration: none;
+    height: 34px;
+    margin-top: 35px;
   }
 }
